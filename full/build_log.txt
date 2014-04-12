@@ -1,0 +1,1730 @@
+Creating openvemu_include folder ... 
+openvzemu_include/
+openvzemu_include/linux/
+openvzemu_include/linux/qic117.h
+openvzemu_include/linux/seq_file.h
+openvzemu_include/linux/efs_vh.h
+openvzemu_include/linux/elfcore.h
+openvzemu_include/linux/sched.h
+openvzemu_include/linux/agpgart.h
+openvzemu_include/linux/coda_linux.h
+openvzemu_include/linux/n_r3964.h
+openvzemu_include/linux/statfs.h
+openvzemu_include/linux/bfs_fs.h
+openvzemu_include/linux/libata.h
+openvzemu_include/linux/ncp_no.h
+openvzemu_include/linux/stop_machine.h
+openvzemu_include/linux/kmalloc_sizes.h
+openvzemu_include/linux/apm_bios.h
+openvzemu_include/linux/kmem_slab.h
+openvzemu_include/linux/aio_abi.h
+openvzemu_include/linux/mtd/
+openvzemu_include/linux/mtd/plat-ram.h
+openvzemu_include/linux/mtd/iflash.h
+openvzemu_include/linux/mtd/ndfc.h
+openvzemu_include/linux/mtd/pmc551.h
+openvzemu_include/linux/mtd/partitions.h
+openvzemu_include/linux/mtd/nand.h
+openvzemu_include/linux/mtd/blktrans.h
+openvzemu_include/linux/mtd/map.h
+openvzemu_include/linux/mtd/compatmac.h
+openvzemu_include/linux/mtd/onenand_regs.h
+openvzemu_include/linux/mtd/nand_ecc.h
+openvzemu_include/linux/mtd/physmap.h
+openvzemu_include/linux/mtd/flashchip.h
+openvzemu_include/linux/mtd/inftl.h
+openvzemu_include/linux/mtd/jedec.h
+openvzemu_include/linux/mtd/cfi.h
+openvzemu_include/linux/mtd/bbm.h
+openvzemu_include/linux/mtd/doc2000.h
+openvzemu_include/linux/mtd/nftl.h
+openvzemu_include/linux/mtd/mtd.h
+openvzemu_include/linux/mtd/concat.h
+openvzemu_include/linux/mtd/gen_probe.h
+openvzemu_include/linux/mtd/onenand.h
+openvzemu_include/linux/mtd/ftl.h
+openvzemu_include/linux/mtd/cfi_endian.h
+openvzemu_include/linux/mtd/xip.h
+openvzemu_include/linux/synclink.h
+openvzemu_include/linux/cramfs_fs.h
+openvzemu_include/linux/vzstat.h
+openvzemu_include/linux/ieee80211.h
+openvzemu_include/linux/net_dropmon.h
+openvzemu_include/linux/fcdevice.h
+openvzemu_include/linux/init.h
+openvzemu_include/linux/rwsem.h
+openvzemu_include/linux/hwmon-vid.h
+openvzemu_include/linux/vzquota.h
+openvzemu_include/linux/jbd2.h
+openvzemu_include/linux/jhash.h
+openvzemu_include/linux/amba/
+openvzemu_include/linux/amba/serial.h
+openvzemu_include/linux/amba/bus.h
+openvzemu_include/linux/amba/kmi.h
+openvzemu_include/linux/amba/clcd.h
+openvzemu_include/linux/squashfs_fs.h
+openvzemu_include/linux/mlx4/
+openvzemu_include/linux/mlx4/srq.h
+openvzemu_include/linux/mlx4/device.h
+openvzemu_include/linux/mlx4/driver.h
+openvzemu_include/linux/mlx4/cq.h
+openvzemu_include/linux/mlx4/doorbell.h
+openvzemu_include/linux/mlx4/cmd.h
+openvzemu_include/linux/mlx4/qp.h
+openvzemu_include/linux/ioctl.h
+openvzemu_include/linux/usb/
+openvzemu_include/linux/usb/cdc.h
+openvzemu_include/linux/usb/sl811.h
+openvzemu_include/linux/usb/serial.h
+openvzemu_include/linux/usb/isp116x.h
+openvzemu_include/linux/usb/net2280.h
+openvzemu_include/linux/usb/input.h
+openvzemu_include/linux/scx200.h
+openvzemu_include/linux/mpage.h
+openvzemu_include/linux/cpt_ioctl.h
+openvzemu_include/linux/mman.h
+openvzemu_include/linux/ixjuser.h
+openvzemu_include/linux/keyctl.h
+openvzemu_include/linux/dmaengine.h
+openvzemu_include/linux/rbtree.h
+openvzemu_include/linux/compiler-intel.h
+openvzemu_include/linux/ds1742rtc.h
+openvzemu_include/linux/affs_fs.h
+openvzemu_include/linux/virtio_net.h
+openvzemu_include/linux/if_hippi.h
+openvzemu_include/linux/wait.h
+openvzemu_include/linux/ktime.h
+openvzemu_include/linux/fs_struct.h
+openvzemu_include/linux/workqueue.h
+openvzemu_include/linux/ext3_fs.h
+openvzemu_include/linux/hdpu_features.h
+openvzemu_include/linux/nubus.h
+openvzemu_include/linux/ext3_fs_i.h
+openvzemu_include/linux/coda_proc.h
+openvzemu_include/linux/coda.h
+openvzemu_include/linux/ibmtr.h
+openvzemu_include/linux/fs.h
+openvzemu_include/linux/ve_proto.h
+openvzemu_include/linux/ncp.h
+openvzemu_include/linux/dmar.h
+openvzemu_include/linux/drbd_config.h
+openvzemu_include/linux/if_ltalk.h
+openvzemu_include/linux/smb_fs_sb.h
+openvzemu_include/linux/moduleparam.h
+openvzemu_include/linux/fd.h
+openvzemu_include/linux/device-mapper.h
+openvzemu_include/linux/hwmon.h
+openvzemu_include/linux/openprom_fs.h
+openvzemu_include/linux/task_io_accounting.h
+openvzemu_include/linux/gen_stats.h
+openvzemu_include/linux/stacktrace.h
+openvzemu_include/linux/if_addr.h
+openvzemu_include/linux/route.h
+openvzemu_include/linux/pci.h
+openvzemu_include/linux/tc_ematch/
+openvzemu_include/linux/tc_ematch/tc_em_cmp.h
+openvzemu_include/linux/tc_ematch/tc_em_nbyte.h
+openvzemu_include/linux/tc_ematch/Kbuild
+openvzemu_include/linux/tc_ematch/tc_em_text.h
+openvzemu_include/linux/tc_ematch/tc_em_meta.h
+openvzemu_include/linux/trdevice.h
+openvzemu_include/linux/log2.h
+openvzemu_include/linux/seccomp.h
+openvzemu_include/linux/iscsi_ibft.h
+openvzemu_include/linux/sysrq.h
+openvzemu_include/linux/ppp_channel.h
+openvzemu_include/linux/firewire-constants.h
+openvzemu_include/linux/pg.h
+openvzemu_include/linux/drbd_nl.h
+openvzemu_include/linux/rio_drv.h
+openvzemu_include/linux/fcntl.h
+openvzemu_include/linux/rio_ids.h
+openvzemu_include/linux/profile.h
+openvzemu_include/linux/unistd.h
+openvzemu_include/linux/cycx_drv.h
+openvzemu_include/linux/irda.h
+openvzemu_include/linux/adfs_fs.h
+openvzemu_include/linux/coff.h
+openvzemu_include/linux/topology.h
+openvzemu_include/linux/ds1286.h
+openvzemu_include/linux/vfs.h
+openvzemu_include/linux/nbd.h
+openvzemu_include/linux/auxvec.h
+openvzemu_include/linux/hil.h
+openvzemu_include/linux/cyclades.h
+openvzemu_include/linux/if_ec.h
+openvzemu_include/linux/posix_types.h
+openvzemu_include/linux/efs_fs_i.h
+openvzemu_include/linux/pnpbios.h
+openvzemu_include/linux/flat.h
+openvzemu_include/linux/ioc3.h
+openvzemu_include/linux/parport_pc.h
+openvzemu_include/linux/dm-ioctl.h
+openvzemu_include/linux/ftape-vendors.h
+openvzemu_include/linux/ip_mp_alg.h
+openvzemu_include/linux/cfq-iosched.h
+openvzemu_include/linux/dmi.h
+openvzemu_include/linux/hayesesp.h
+openvzemu_include/linux/pata_platform.h
+openvzemu_include/linux/taskstats.h
+openvzemu_include/linux/node.h
+openvzemu_include/linux/crash_dump.h
+openvzemu_include/linux/vzctl.h
+openvzemu_include/linux/taskstats_kern.h
+openvzemu_include/linux/zutil.h
+openvzemu_include/linux/serial_8250.h
+openvzemu_include/linux/efs_fs.h
+openvzemu_include/linux/pmu.h
+openvzemu_include/linux/lapb.h
+openvzemu_include/linux/m41t00.h
+openvzemu_include/linux/pfn.h
+openvzemu_include/linux/agp_backend.h
+openvzemu_include/linux/spinlock_types.h
+openvzemu_include/linux/i2c-isa.h
+openvzemu_include/linux/skbuff.h
+openvzemu_include/linux/signalfd.h
+openvzemu_include/linux/tty.h
+openvzemu_include/linux/debug_locks.h
+openvzemu_include/linux/arcdevice.h
+openvzemu_include/linux/setup.h
+openvzemu_include/linux/jffs2.h
+openvzemu_include/linux/netfilter_arp.h
+openvzemu_include/linux/parport.h
+openvzemu_include/linux/slab.h
+openvzemu_include/linux/nfs.h
+openvzemu_include/linux/fairsched.h
+openvzemu_include/linux/list.h
+openvzemu_include/linux/oprofile.h
+openvzemu_include/linux/tipc.h
+openvzemu_include/linux/fs_uart_pd.h
+openvzemu_include/linux/percpu_counter.h
+openvzemu_include/linux/sysv_fs.h
+openvzemu_include/linux/nfs4.h
+openvzemu_include/linux/efs_fs_sb.h
+openvzemu_include/linux/cciss_ioctl.h
+openvzemu_include/linux/posix_acl_xattr.h
+openvzemu_include/linux/sysctl.h
+openvzemu_include/linux/matroxfb.h
+openvzemu_include/linux/mempool.h
+openvzemu_include/linux/udf_fs_i.h
+openvzemu_include/linux/netfilter.h
+openvzemu_include/linux/chio.h
+openvzemu_include/linux/ext2_fs.h
+openvzemu_include/linux/affs_hardblocks.h
+openvzemu_include/linux/xattr.h
+openvzemu_include/linux/root_dev.h
+openvzemu_include/linux/raw.h
+openvzemu_include/linux/textsearch.h
+openvzemu_include/linux/futex.h
+openvzemu_include/linux/i2c-pxa.h
+openvzemu_include/linux/kdev_t.h
+openvzemu_include/linux/reboot.h
+openvzemu_include/linux/elf-em.h
+openvzemu_include/linux/platform_device.h
+openvzemu_include/linux/telephony.h
+openvzemu_include/linux/igmp.h
+openvzemu_include/linux/fb.h
+openvzemu_include/linux/gigaset_dev.h
+openvzemu_include/linux/cpu.h
+openvzemu_include/linux/netfilter_bridge/
+openvzemu_include/linux/netfilter_bridge/ebt_802_3.h
+openvzemu_include/linux/netfilter_bridge/ebt_ulog.h
+openvzemu_include/linux/netfilter_bridge/ebt_redirect.h
+openvzemu_include/linux/netfilter_bridge/ebt_nat.h
+openvzemu_include/linux/netfilter_bridge/ebt_among.h
+openvzemu_include/linux/netfilter_bridge/ebt_arpreply.h
+openvzemu_include/linux/netfilter_bridge/ebt_vlan.h
+openvzemu_include/linux/netfilter_bridge/ebt_stp.h
+openvzemu_include/linux/netfilter_bridge/Kbuild
+openvzemu_include/linux/netfilter_bridge/ebt_arp.h
+openvzemu_include/linux/netfilter_bridge/ebt_log.h
+openvzemu_include/linux/netfilter_bridge/ebtables.h
+openvzemu_include/linux/netfilter_bridge/ebt_mark_m.h
+openvzemu_include/linux/netfilter_bridge/ebt_mark_t.h
+openvzemu_include/linux/netfilter_bridge/ebt_limit.h
+openvzemu_include/linux/netfilter_bridge/ebt_ip.h
+openvzemu_include/linux/netfilter_bridge/ebt_pkttype.h
+openvzemu_include/linux/if_infiniband.h
+openvzemu_include/linux/dlm_device.h
+openvzemu_include/linux/crypto.h
+openvzemu_include/linux/superhyway.h
+openvzemu_include/linux/if_fc.h
+openvzemu_include/linux/atm_idt77105.h
+openvzemu_include/linux/tiocl.h
+openvzemu_include/linux/isa.h
+openvzemu_include/linux/device.h
+openvzemu_include/linux/genetlink.h
+openvzemu_include/linux/dlm_netlink.h
+openvzemu_include/linux/nfsd_idmap.h
+openvzemu_include/linux/libata-compat.h
+openvzemu_include/linux/kexec.h
+openvzemu_include/linux/if_strip.h
+openvzemu_include/linux/atmclip.h
+openvzemu_include/linux/virtio_blk.h
+openvzemu_include/linux/ftape.h
+openvzemu_include/linux/prefetch.h
+openvzemu_include/linux/virtio_config.h
+openvzemu_include/linux/atmarp.h
+openvzemu_include/linux/ipmi_smi.h
+openvzemu_include/linux/lp.h
+openvzemu_include/linux/serial_reg.h
+openvzemu_include/linux/virtinfo.h
+openvzemu_include/linux/bit_spinlock.h
+openvzemu_include/linux/mutex-debug.h
+openvzemu_include/linux/namei.h
+openvzemu_include/linux/dca.h
+openvzemu_include/linux/usb_usual.h
+openvzemu_include/linux/ds17287rtc.h
+openvzemu_include/linux/ve_nfs.h
+openvzemu_include/linux/dtlk.h
+openvzemu_include/linux/netfilter_ipv4/
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_pptp.h
+openvzemu_include/linux/netfilter_ipv4/ipt_connbytes.h
+openvzemu_include/linux/netfilter_ipv4/ipt_connmark.h
+openvzemu_include/linux/netfilter_ipv4/ip_nat_core.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_irc.h
+openvzemu_include/linux/netfilter_ipv4/ipt_hashlimit.h
+openvzemu_include/linux/netfilter_ipv4/ip_queue.h
+openvzemu_include/linux/netfilter_ipv4/ipt_ECN.h
+openvzemu_include/linux/netfilter_ipv4/ipt_dscp.h
+openvzemu_include/linux/netfilter_ipv4/ip_nat_pptp.h
+openvzemu_include/linux/netfilter_ipv4/listhelp.h
+openvzemu_include/linux/netfilter_ipv4/ipt_helper.h
+openvzemu_include/linux/netfilter_ipv4/ipt_state.h
+openvzemu_include/linux/netfilter_ipv4/ipt_comment.h
+openvzemu_include/linux/netfilter_ipv4/ipt_pkttype.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_amanda.h
+openvzemu_include/linux/netfilter_ipv4/ipt_realm.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_core.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_h323.h
+openvzemu_include/linux/netfilter_ipv4/ipt_ttl.h
+openvzemu_include/linux/netfilter_ipv4/ipt_owner.h
+openvzemu_include/linux/netfilter_ipv4/ipt_TOS.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_tftp.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_icmp.h
+openvzemu_include/linux/netfilter_ipv4/ip_nat_helper.h
+openvzemu_include/linux/netfilter_ipv4/ipt_REJECT.h
+openvzemu_include/linux/netfilter_ipv4/ipt_ah.h
+openvzemu_include/linux/netfilter_ipv4/ipt_LOG.h
+openvzemu_include/linux/netfilter_ipv4/ipt_NFQUEUE.h
+openvzemu_include/linux/netfilter_ipv4/ipt_conntrack.h
+openvzemu_include/linux/netfilter_ipv4/ip_nat.h
+openvzemu_include/linux/netfilter_ipv4/ipt_length.h
+openvzemu_include/linux/netfilter_ipv4/ipt_CONNMARK.h
+openvzemu_include/linux/netfilter_ipv4/ipt_limit.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_ftp.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack.h
+openvzemu_include/linux/netfilter_ipv4/ipt_physdev.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_sip.h
+openvzemu_include/linux/netfilter_ipv4/ipt_iprange.h
+openvzemu_include/linux/netfilter_ipv4/ipt_CLASSIFY.h
+openvzemu_include/linux/netfilter_ipv4/Kbuild
+openvzemu_include/linux/netfilter_ipv4/ip_tables.h
+openvzemu_include/linux/netfilter_ipv4/ipt_multiport.h
+openvzemu_include/linux/netfilter_ipv4/ipt_esp.h
+openvzemu_include/linux/netfilter_ipv4/ipt_addrtype.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_helper_h323_types.h
+openvzemu_include/linux/netfilter_ipv4/ipt_SAME.h
+openvzemu_include/linux/netfilter_ipv4/ip_nat_protocol.h
+openvzemu_include/linux/netfilter_ipv4/ipt_ULOG.h
+openvzemu_include/linux/netfilter_ipv4/ipt_TCPMSS.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_proto_gre.h
+openvzemu_include/linux/netfilter_ipv4/ipt_tcpmss.h
+openvzemu_include/linux/netfilter_ipv4/ipt_sctp.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_protocol.h
+openvzemu_include/linux/netfilter_ipv4/ipt_mark.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_helper_h323_asn1.h
+openvzemu_include/linux/netfilter_ipv4/ipt_CLUSTERIP.h
+openvzemu_include/linux/netfilter_ipv4/ipt_policy.h
+openvzemu_include/linux/netfilter_ipv4/ipt_TTL.h
+openvzemu_include/linux/netfilter_ipv4/ipt_recent.h
+openvzemu_include/linux/netfilter_ipv4/ipt_mac.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_sctp.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_tcp.h
+openvzemu_include/linux/netfilter_ipv4/ipt_dccp.h
+openvzemu_include/linux/netfilter_ipv4/ip_nat_rule.h
+openvzemu_include/linux/netfilter_ipv4/ipt_ecn.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_tuple.h
+openvzemu_include/linux/netfilter_ipv4/ipt_DSCP.h
+openvzemu_include/linux/netfilter_ipv4/ip_conntrack_helper.h
+openvzemu_include/linux/netfilter_ipv4/ipt_string.h
+openvzemu_include/linux/netfilter_ipv4/ipt_MARK.h
+openvzemu_include/linux/netfilter_ipv4/ipt_tos.h
+openvzemu_include/linux/falloc.h
+openvzemu_include/linux/dcookies.h
+openvzemu_include/linux/i2c-ocores.h
+openvzemu_include/linux/atmioc.h
+openvzemu_include/linux/sonypi.h
+openvzemu_include/linux/virtio_ring.h
+openvzemu_include/linux/ipsec.h
+openvzemu_include/linux/capi.h
+openvzemu_include/linux/if_pppox.h
+openvzemu_include/linux/adfs_fs_sb.h
+openvzemu_include/linux/crypto/
+openvzemu_include/linux/crypto/mpi.h
+openvzemu_include/linux/crypto/ksign.h
+openvzemu_include/linux/aio.h
+openvzemu_include/linux/mmzone.h
+openvzemu_include/linux/dma-mapping.h
+openvzemu_include/linux/squashfs_fs_sb.h
+openvzemu_include/linux/usb_gadget.h
+openvzemu_include/linux/dma-attrs.h
+openvzemu_include/linux/kallsyms.h
+openvzemu_include/linux/spinlock_api_smp.h
+openvzemu_include/linux/limits.h
+openvzemu_include/linux/mdio.h
+openvzemu_include/linux/reiserfs_fs.h
+openvzemu_include/linux/task_io_accounting_ops.h
+openvzemu_include/linux/netfilter_ipv4.h
+openvzemu_include/linux/miscdevice.h
+openvzemu_include/linux/faudit.h
+openvzemu_include/linux/sonet.h
+openvzemu_include/linux/eeprom_93cx6.h
+openvzemu_include/linux/meye.h
+openvzemu_include/linux/resume-trace.h
+openvzemu_include/linux/suspend.h
+openvzemu_include/linux/vzcalluser.h
+openvzemu_include/linux/cn_proc.h
+openvzemu_include/linux/input-polldev.h
+openvzemu_include/linux/auto_fs4.h
+openvzemu_include/linux/unwind.h
+openvzemu_include/linux/quota-compat.h
+openvzemu_include/linux/acpi_pmtmr.h
+openvzemu_include/linux/pid.h
+openvzemu_include/linux/ioport.h
+openvzemu_include/linux/kmod.h
+openvzemu_include/linux/quota.h
+openvzemu_include/linux/ipc.h
+openvzemu_include/linux/mbcache.h
+openvzemu_include/linux/reiserfs_acl.h
+openvzemu_include/linux/b1lli.h
+openvzemu_include/linux/libps2.h
+openvzemu_include/linux/cramfs_fs_sb.h
+openvzemu_include/linux/if_wanpipe.h
+openvzemu_include/linux/ipmi.h
+openvzemu_include/linux/kprobes.h
+openvzemu_include/linux/smb_fs.h
+openvzemu_include/linux/tc_act/
+openvzemu_include/linux/tc_act/tc_pedit.h
+openvzemu_include/linux/tc_act/tc_defact.h
+openvzemu_include/linux/tc_act/Kbuild
+openvzemu_include/linux/tc_act/tc_mirred.h
+openvzemu_include/linux/tc_act/tc_ipt.h
+openvzemu_include/linux/tc_act/tc_gact.h
+openvzemu_include/linux/scc.h
+openvzemu_include/linux/rio.h
+openvzemu_include/linux/hardirq.h
+openvzemu_include/linux/vtime.h
+openvzemu_include/linux/time.h
+openvzemu_include/linux/bpqether.h
+openvzemu_include/linux/font.h
+openvzemu_include/linux/nsc_gpio.h
+openvzemu_include/linux/pci_ids.h
+openvzemu_include/linux/sctp.h
+openvzemu_include/linux/fdreg.h
+openvzemu_include/linux/audit.h
+openvzemu_include/linux/videotext.h
+openvzemu_include/linux/8250_pci.h
+openvzemu_include/linux/tcp.h
+openvzemu_include/linux/netrom.h
+openvzemu_include/linux/smp_lock.h
+openvzemu_include/linux/percpu.h
+openvzemu_include/linux/zconf.h
+openvzemu_include/linux/blkdev.h
+openvzemu_include/linux/vtime.c
+openvzemu_include/linux/efs_dir.h
+openvzemu_include/linux/atm.h
+openvzemu_include/linux/drbd_limits.h
+openvzemu_include/linux/yam.h
+openvzemu_include/linux/dlm.h
+openvzemu_include/linux/calc64.h
+openvzemu_include/linux/backlight.h
+openvzemu_include/linux/timex.h
+openvzemu_include/linux/dm-dirty-log.h
+openvzemu_include/linux/i2c-algo-pca.h
+openvzemu_include/linux/isdn_ppp.h
+openvzemu_include/linux/fs_stack.h
+openvzemu_include/linux/nfs_fs_sb.h
+openvzemu_include/linux/poll.h
+openvzemu_include/linux/tty_driver.h
+openvzemu_include/linux/pm_legacy.h
+openvzemu_include/linux/netpoll.h
+openvzemu_include/linux/ufs_fs.h
+openvzemu_include/linux/nfsd/
+openvzemu_include/linux/nfsd/nfsfh.h
+openvzemu_include/linux/nfsd/interface.h
+openvzemu_include/linux/nfsd/export.h
+openvzemu_include/linux/nfsd/nfsd.h
+openvzemu_include/linux/nfsd/cache.h
+openvzemu_include/linux/nfsd/auth.h
+openvzemu_include/linux/nfsd/state.h
+openvzemu_include/linux/nfsd/xdr4.h
+openvzemu_include/linux/nfsd/stats.h
+openvzemu_include/linux/nfsd/debug.h
+openvzemu_include/linux/nfsd/Kbuild
+openvzemu_include/linux/nfsd/xdr.h
+openvzemu_include/linux/nfsd/xdr3.h
+openvzemu_include/linux/nfsd/const.h
+openvzemu_include/linux/nfsd/syscall.h
+openvzemu_include/linux/capability.h
+openvzemu_include/linux/ftape-header-segment.h
+openvzemu_include/linux/mca-legacy.h
+openvzemu_include/linux/serial.h
+openvzemu_include/linux/squashfs_fs_i.h
+openvzemu_include/linux/ve.h
+openvzemu_include/linux/video_encoder.h
+openvzemu_include/linux/dio.h
+openvzemu_include/linux/a.out.h
+openvzemu_include/linux/ioc4.h
+openvzemu_include/linux/mmtimer.h
+openvzemu_include/linux/kthread.h
+openvzemu_include/linux/blk-iopoll.h
+openvzemu_include/linux/reiserfs_xattr.h
+openvzemu_include/linux/i2o.h
+openvzemu_include/linux/if_packet.h
+openvzemu_include/linux/elf.h
+openvzemu_include/linux/init_task.h
+openvzemu_include/linux/posix_acl.h
+openvzemu_include/linux/fips.h
+openvzemu_include/linux/initrd.h
+openvzemu_include/linux/nfs_xdr.h
+openvzemu_include/linux/page-flags.h
+openvzemu_include/linux/binfmts.h
+openvzemu_include/linux/eisa.h
+openvzemu_include/linux/stringify.h
+openvzemu_include/linux/key.h
+openvzemu_include/linux/pipe_fs_i.h
+openvzemu_include/linux/adfs_fs_i.h
+openvzemu_include/linux/in_route.h
+openvzemu_include/linux/jiffies.h
+openvzemu_include/linux/dmapool.h
+openvzemu_include/linux/raid/
+openvzemu_include/linux/raid/raid0.h
+openvzemu_include/linux/raid/raid10.h
+openvzemu_include/linux/raid/raid1.h
+openvzemu_include/linux/raid/bitmap.h
+openvzemu_include/linux/raid/md_k.h
+openvzemu_include/linux/raid/xor.h
+openvzemu_include/linux/raid/md_p.h
+openvzemu_include/linux/raid/Kbuild
+openvzemu_include/linux/raid/raid5.h
+openvzemu_include/linux/raid/multipath.h
+openvzemu_include/linux/raid/md_u.h
+openvzemu_include/linux/raid/md.h
+openvzemu_include/linux/raid/linear.h
+openvzemu_include/linux/sdla.h
+openvzemu_include/linux/cobalt-nvram.h
+openvzemu_include/linux/uio.h
+openvzemu_include/linux/config.h
+openvzemu_include/linux/ufs_fs_i.h
+openvzemu_include/linux/atmsvc.h
+openvzemu_include/linux/inet_lro.h
+openvzemu_include/linux/if_plip.h
+openvzemu_include/linux/highmem.h
+openvzemu_include/linux/hdsmart.h
+openvzemu_include/linux/umem.h
+openvzemu_include/linux/sem.h
+openvzemu_include/linux/atmmpc.h
+openvzemu_include/linux/fsl_devices.h
+openvzemu_include/linux/icmp.h
+openvzemu_include/linux/pfkeyv2.h
+openvzemu_include/linux/kvm_para.h
+openvzemu_include/linux/ppdev.h
+openvzemu_include/linux/cache.h
+openvzemu_include/linux/ac97_codec.h
+openvzemu_include/linux/uinput.h
+openvzemu_include/linux/bitmap.h
+openvzemu_include/linux/rcupdate.h
+openvzemu_include/linux/if_tunnel.h
+openvzemu_include/linux/ppp_defs.h
+openvzemu_include/linux/etherdevice.h
+openvzemu_include/linux/moduleloader.h
+openvzemu_include/linux/vzdq_tree.h
+openvzemu_include/linux/ufs_fs_sb.h
+openvzemu_include/linux/ramfs.h
+openvzemu_include/linux/blockgroup_lock.h
+openvzemu_include/linux/vt.h
+openvzemu_include/linux/som.h
+openvzemu_include/linux/xfrm.h
+openvzemu_include/linux/pci-acpi.h
+openvzemu_include/linux/linkage.h
+openvzemu_include/linux/atm_zatm.h
+openvzemu_include/linux/vzquota_qlnk.h
+openvzemu_include/linux/pktcdvd.h
+openvzemu_include/linux/ide.h
+openvzemu_include/linux/tracehook.h
+openvzemu_include/linux/cpt_image.h
+openvzemu_include/linux/venet.h
+openvzemu_include/linux/mc6821.h
+openvzemu_include/linux/drbd_tag_magic.h
+openvzemu_include/linux/usb.h
+openvzemu_include/linux/aer.h
+openvzemu_include/linux/hugetlb.h
+openvzemu_include/linux/veip.h
+openvzemu_include/linux/cycx_cfm.h
+openvzemu_include/linux/anon_inodes.h
+openvzemu_include/linux/vt_kern.h
+openvzemu_include/linux/ipv6_route.h
+openvzemu_include/linux/kbd_kern.h
+openvzemu_include/linux/irqflags.h
+openvzemu_include/linux/lru_cache.h
+openvzemu_include/linux/attribute_container.h
+openvzemu_include/linux/cyclomx.h
+openvzemu_include/linux/backing-dev.h
+openvzemu_include/linux/gfp.h
+openvzemu_include/linux/com20020.h
+openvzemu_include/linux/b1pcmcia.h
+openvzemu_include/linux/io.h
+openvzemu_include/linux/ncp_fs_i.h
+openvzemu_include/linux/amifd.h
+openvzemu_include/linux/ext3_jbd.h
+openvzemu_include/linux/istallion.h
+openvzemu_include/linux/selection.h
+openvzemu_include/linux/clocksource.h
+openvzemu_include/linux/nfs4_mount.h
+openvzemu_include/linux/vzratelimit.h
+openvzemu_include/linux/elf_boot.h
+openvzemu_include/linux/snmp.h
+openvzemu_include/linux/if_ether.h
+openvzemu_include/linux/virtio_balloon.h
+openvzemu_include/linux/ncp_fs.h
+openvzemu_include/linux/lockdep.h
+openvzemu_include/linux/msdos_fs.h
+openvzemu_include/linux/rtmutex.h
+openvzemu_include/linux/interrupt.h
+openvzemu_include/linux/ptrace.h
+openvzemu_include/linux/nl80211.h
+openvzemu_include/linux/seqlock.h
+openvzemu_include/linux/migrate.h
+openvzemu_include/linux/spi/
+openvzemu_include/linux/spi/spi.h
+openvzemu_include/linux/spi/ads7846.h
+openvzemu_include/linux/spi/flash.h
+openvzemu_include/linux/spi/spi_bitbang.h
+openvzemu_include/linux/mm.h
+openvzemu_include/linux/vzctl_quota.h
+openvzemu_include/linux/swap.h
+openvzemu_include/linux/poison.h
+openvzemu_include/linux/file.h
+openvzemu_include/linux/sys.h
+openvzemu_include/linux/key-ui.h
+openvzemu_include/linux/x25.h
+openvzemu_include/linux/tracepoint.h
+openvzemu_include/linux/mroute.h
+openvzemu_include/linux/wireless.h
+openvzemu_include/linux/i2c-algo-sgi.h
+openvzemu_include/linux/hdreg.h
+openvzemu_include/linux/memory.h
+openvzemu_include/linux/filter.h
+openvzemu_include/linux/grinternal.h
+openvzemu_include/linux/auto_fs.h
+openvzemu_include/linux/serialP.h
+openvzemu_include/linux/nvram.h
+openvzemu_include/linux/random.h
+openvzemu_include/linux/memory_hotplug.h
+openvzemu_include/linux/inetdevice.h
+openvzemu_include/linux/serial167.h
+openvzemu_include/linux/mount.h
+openvzemu_include/linux/nodemask.h
+openvzemu_include/linux/arcfb.h
+openvzemu_include/linux/proc_fs.h
+openvzemu_include/linux/completion.h
+openvzemu_include/linux/string.h
+openvzemu_include/linux/dn.h
+openvzemu_include/linux/scatterlist.h
+openvzemu_include/linux/genalloc.h
+openvzemu_include/linux/dvb/
+openvzemu_include/linux/dvb/video.h
+openvzemu_include/linux/dvb/osd.h
+openvzemu_include/linux/dvb/Kbuild
+openvzemu_include/linux/dvb/dmx.h
+openvzemu_include/linux/dvb/frontend.h
+openvzemu_include/linux/dvb/version.h
+openvzemu_include/linux/dvb/ca.h
+openvzemu_include/linux/dvb/audio.h
+openvzemu_include/linux/dvb/net.h
+openvzemu_include/linux/reboot_fixups.h
+openvzemu_include/linux/errno.h
+openvzemu_include/linux/fuse.h
+openvzemu_include/linux/f75375s.h
+openvzemu_include/linux/atmbr2684.h
+openvzemu_include/linux/ipx.h
+openvzemu_include/linux/vt_buffer.h
+openvzemu_include/linux/bootmem.h
+openvzemu_include/linux/delay.h
+openvzemu_include/linux/vsched.h
+openvzemu_include/linux/serial_core.h
+openvzemu_include/linux/atm_eni.h
+openvzemu_include/linux/screen_info.h
+openvzemu_include/linux/mca.h
+openvzemu_include/linux/raid_class.h
+openvzemu_include/linux/serial_ip3106.h
+openvzemu_include/linux/udf_fs_sb.h
+openvzemu_include/linux/zorro_ids.h
+openvzemu_include/linux/isapnp.h
+openvzemu_include/linux/if_bridge.h
+openvzemu_include/linux/selinux.h
+openvzemu_include/linux/dma_remapping.h
+openvzemu_include/linux/crc32.h
+openvzemu_include/linux/reiserfs_fs_sb.h
+openvzemu_include/linux/fddidevice.h
+openvzemu_include/linux/intel-iommu.h
+openvzemu_include/linux/scx200_gpio.h
+openvzemu_include/linux/ext2_fs_sb.h
+openvzemu_include/linux/Kbuild
+openvzemu_include/linux/video_decoder.h
+openvzemu_include/linux/netfilter_ipv6/
+openvzemu_include/linux/netfilter_ipv6/ip6t_MARK.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_frag.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_policy.h
+openvzemu_include/linux/netfilter_ipv6/ip6_tables.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_ipv6header.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_esp.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_REJECT.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_rt.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_limit.h
+openvzemu_include/linux/netfilter_ipv6/Kbuild
+openvzemu_include/linux/netfilter_ipv6/ip6t_opts.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_LOG.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_multiport.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_physdev.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_hl.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_owner.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_length.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_mac.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_mark.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_ah.h
+openvzemu_include/linux/netfilter_ipv6/ip6t_HL.h
+openvzemu_include/linux/smbno.h
+openvzemu_include/linux/vtime_user.h
+openvzemu_include/linux/rwsem-spinlock.h
+openvzemu_include/linux/i2c-algo-pcf.h
+openvzemu_include/linux/nfs2.h
+openvzemu_include/linux/module.h
+openvzemu_include/linux/mmc/
+openvzemu_include/linux/mmc/host.h
+openvzemu_include/linux/mmc/mmc.h
+openvzemu_include/linux/mmc/protocol.h
+openvzemu_include/linux/mmc/card.h
+openvzemu_include/linux/console.h
+openvzemu_include/linux/delayacct.h
+openvzemu_include/linux/in.h
+openvzemu_include/linux/drbd.h
+openvzemu_include/linux/wavefront.h
+openvzemu_include/linux/securebits.h
+openvzemu_include/linux/quotaops.h
+openvzemu_include/linux/spinlock_up.h
+openvzemu_include/linux/uts.h
+openvzemu_include/linux/llc.h
+openvzemu_include/linux/idr.h
+openvzemu_include/linux/kernelcapi.h
+openvzemu_include/linux/errqueue.h
+openvzemu_include/linux/nfs3.h
+openvzemu_include/linux/writeback.h
+openvzemu_include/linux/hpet.h
+openvzemu_include/linux/spinlock.h
+openvzemu_include/linux/rtc.h
+openvzemu_include/linux/nmi.h
+openvzemu_include/linux/romfs_fs.h
+openvzemu_include/linux/msg.h
+openvzemu_include/linux/pci_regs.h
+openvzemu_include/linux/jffs.h
+openvzemu_include/linux/swapops.h
+openvzemu_include/linux/license.h
+openvzemu_include/linux/if_eql.h
+openvzemu_include/linux/circ_buf.h
+openvzemu_include/linux/quotaio_v1.h
+openvzemu_include/linux/phy.h
+openvzemu_include/linux/sunrpc/
+openvzemu_include/linux/sunrpc/sched.h
+openvzemu_include/linux/sunrpc/metrics.h
+openvzemu_include/linux/sunrpc/gss_asn1.h
+openvzemu_include/linux/sunrpc/clnt.h
+openvzemu_include/linux/sunrpc/gss_err.h
+openvzemu_include/linux/sunrpc/cache.h
+openvzemu_include/linux/sunrpc/auth.h
+openvzemu_include/linux/sunrpc/gss_spkm3.h
+openvzemu_include/linux/sunrpc/stats.h
+openvzemu_include/linux/sunrpc/debug.h
+openvzemu_include/linux/sunrpc/Kbuild
+openvzemu_include/linux/sunrpc/svc.h
+openvzemu_include/linux/sunrpc/msg_prot.h
+openvzemu_include/linux/sunrpc/auth_gss.h
+openvzemu_include/linux/sunrpc/xdr.h
+openvzemu_include/linux/sunrpc/gss_api.h
+openvzemu_include/linux/sunrpc/svcsock.h
+openvzemu_include/linux/sunrpc/timer.h
+openvzemu_include/linux/sunrpc/gss_krb5.h
+openvzemu_include/linux/sunrpc/types.h
+openvzemu_include/linux/sunrpc/xprt.h
+openvzemu_include/linux/sunrpc/svcauth.h
+openvzemu_include/linux/sunrpc/rpc_pipe_fs.h
+openvzemu_include/linux/sunrpc/svcauth_gss.h
+openvzemu_include/linux/buffer_head.h
+openvzemu_include/linux/relay.h
+openvzemu_include/linux/compiler-gcc3.h
+openvzemu_include/linux/threads.h
+openvzemu_include/linux/elf-fdpic.h
+openvzemu_include/linux/edd.h
+openvzemu_include/linux/if_tun.h
+openvzemu_include/linux/firewire-cdev.h
+openvzemu_include/linux/atmppp.h
+openvzemu_include/linux/amifdreg.h
+openvzemu_include/linux/toshiba.h
+openvzemu_include/linux/netfilter_bridge.h
+openvzemu_include/linux/ipmi_msgdefs.h
+openvzemu_include/linux/rtc-v3020.h
+openvzemu_include/linux/hrtimer.h
+openvzemu_include/linux/fscache.h
+openvzemu_include/linux/gfs2_ondisk.h
+openvzemu_include/linux/sockios.h
+openvzemu_include/linux/irq.h
+openvzemu_include/linux/dirent.h
+openvzemu_include/linux/iommu.h
+openvzemu_include/linux/awe_voice.h
+openvzemu_include/linux/compat_ioctl.h
+openvzemu_include/linux/numa.h
+openvzemu_include/linux/nfsacl.h
+openvzemu_include/linux/nfs_fs_i.h
+openvzemu_include/linux/iso_fs.h
+openvzemu_include/linux/acpi.h
+openvzemu_include/linux/spinlock_types_up.h
+openvzemu_include/linux/virtio_pci.h
+openvzemu_include/linux/preempt.h
+openvzemu_include/linux/security.h
+openvzemu_include/linux/minix_fs.h
+openvzemu_include/linux/crc-itu-t.h
+openvzemu_include/linux/cpumask.h
+openvzemu_include/linux/eventpoll.h
+openvzemu_include/linux/atmsap.h
+openvzemu_include/linux/if_ppp.h
+openvzemu_include/linux/resource.h
+openvzemu_include/linux/isdn.h
+openvzemu_include/linux/videodev.h
+openvzemu_include/linux/radeonfb.h
+openvzemu_include/linux/kobj_map.h
+openvzemu_include/linux/tty_ldisc.h
+openvzemu_include/linux/blktrace_api.h
+openvzemu_include/linux/icmpv6.h
+openvzemu_include/linux/gameport.h
+openvzemu_include/linux/bio.h
+openvzemu_include/linux/soundcard.h
+openvzemu_include/linux/concap.h
+openvzemu_include/linux/virtinfoscp.h
+openvzemu_include/linux/ncp_fs_sb.h
+openvzemu_include/linux/ioprio.h
+openvzemu_include/linux/utime.h
+openvzemu_include/linux/lockd/
+openvzemu_include/linux/lockd/nlm.h
+openvzemu_include/linux/lockd/sm_inter.h
+openvzemu_include/linux/lockd/bind.h
+openvzemu_include/linux/lockd/xdr4.h
+openvzemu_include/linux/lockd/debug.h
+openvzemu_include/linux/lockd/xdr.h
+openvzemu_include/linux/lockd/lockd.h
+openvzemu_include/linux/lockd/share.h
+openvzemu_include/linux/if_vlan.h
+openvzemu_include/linux/param.h
+openvzemu_include/linux/major.h
+openvzemu_include/linux/nls.h
+openvzemu_include/linux/mtio.h
+openvzemu_include/linux/firmware.h
+openvzemu_include/linux/ip.h
+openvzemu_include/linux/if_wanpipe_common.h
+openvzemu_include/linux/vzctl_veth.h
+openvzemu_include/linux/usbdevice_fs.h
+openvzemu_include/linux/sound.h
+openvzemu_include/linux/keyboard.h
+openvzemu_include/linux/dlm_plock.h
+openvzemu_include/linux/linux_logo.h
+openvzemu_include/linux/nfcalls.h
+openvzemu_include/linux/ite_gpio.h
+openvzemu_include/linux/clk.h
+openvzemu_include/linux/cdrom.h
+openvzemu_include/linux/smb_fs_i.h
+openvzemu_include/linux/isdnif.h
+openvzemu_include/linux/hwmon-sysfs.h
+openvzemu_include/linux/divert.h
+openvzemu_include/linux/kmem_cache.h
+openvzemu_include/linux/cdk.h
+openvzemu_include/linux/dqblk_v1.h
+openvzemu_include/linux/devpts_fs.h
+openvzemu_include/linux/virtio.h
+openvzemu_include/linux/eventfd.h
+openvzemu_include/linux/videodev2.h
+openvzemu_include/linux/ncrypto.h
+openvzemu_include/linux/cpt_exports.h
+openvzemu_include/linux/pagevec.h
+openvzemu_include/linux/console_struct.h
+openvzemu_include/linux/dnotify.h
+openvzemu_include/linux/rfkill.h
+openvzemu_include/linux/if_fddi.h
+openvzemu_include/linux/grsecurity.h
+openvzemu_include/linux/ip6_tunnel.h
+openvzemu_include/linux/i2c-dev.h
+openvzemu_include/linux/compiler.h
+openvzemu_include/linux/utrace.h
+openvzemu_include/linux/pkt_cls.h
+openvzemu_include/linux/fib_rules.h
+openvzemu_include/linux/acct.h
+openvzemu_include/linux/hw_random.h
+openvzemu_include/linux/namespace.h
+openvzemu_include/linux/m48t86.h
+openvzemu_include/linux/fiemap.h
+openvzemu_include/linux/posix-timers.h
+openvzemu_include/linux/elfnote.h
+openvzemu_include/linux/adb.h
+openvzemu_include/linux/jbd.h
+openvzemu_include/linux/nfs_page.h
+openvzemu_include/linux/kd.h
+openvzemu_include/linux/personality.h
+openvzemu_include/linux/nfs4_acl.h
+openvzemu_include/linux/tty_flip.h
+openvzemu_include/linux/if_cablemodem.h
+openvzemu_include/linux/crc32c.h
+openvzemu_include/linux/i2c-algo-sibyte.h
+openvzemu_include/linux/efi.h
+openvzemu_include/linux/harrier_defs.h
+openvzemu_include/linux/watchdog.h
+openvzemu_include/linux/signal.h
+openvzemu_include/linux/lock_dlm_plock.h
+openvzemu_include/linux/ata.h
+openvzemu_include/linux/ppp-comp.h
+openvzemu_include/linux/usb_gadgetfs.h
+openvzemu_include/linux/connector.h
+openvzemu_include/linux/zlib.h
+openvzemu_include/linux/prctl.h
+openvzemu_include/linux/autoconf.h
+openvzemu_include/linux/utsrelease.h
+openvzemu_include/linux/i8k.h
+openvzemu_include/linux/ext3_fs_sb.h
+openvzemu_include/linux/dm-io.h
+openvzemu_include/linux/vzsnap.h
+openvzemu_include/linux/reiserfs_fs_i.h
+openvzemu_include/linux/compat.h
+openvzemu_include/linux/loop.h
+openvzemu_include/linux/shm.h
+openvzemu_include/linux/plist.h
+openvzemu_include/linux/if_shaper.h
+openvzemu_include/linux/highuid.h
+openvzemu_include/linux/stallion.h
+openvzemu_include/linux/atmlec.h
+openvzemu_include/linux/klist.h
+openvzemu_include/linux/kfifo.h
+openvzemu_include/linux/kobject.h
+openvzemu_include/linux/nsproxy.h
+openvzemu_include/linux/marker.h
+openvzemu_include/linux/times.h
+openvzemu_include/linux/smb_mount.h
+openvzemu_include/linux/timer.h
+openvzemu_include/linux/udf_fs.h
+openvzemu_include/linux/cuda.h
+openvzemu_include/linux/sort.h
+openvzemu_include/linux/dccp.h
+openvzemu_include/linux/compiler-gcc.h
+openvzemu_include/linux/compile.h
+openvzemu_include/linux/patchkey.h
+openvzemu_include/linux/tfrc.h
+openvzemu_include/linux/mod_devicetable.h
+openvzemu_include/linux/if_arcnet.h
+openvzemu_include/linux/termios.h
+openvzemu_include/linux/irqreturn.h
+openvzemu_include/linux/ve_task.h
+openvzemu_include/linux/cpuset.h
+openvzemu_include/linux/cryptohash.h
+openvzemu_include/linux/ax25.h
+openvzemu_include/linux/hiddev.h
+openvzemu_include/linux/pcieport_if.h
+openvzemu_include/linux/ctype.h
+openvzemu_include/linux/i2c.h
+openvzemu_include/linux/hp_sdc.h
+openvzemu_include/linux/i2c-algo-bit.h
+openvzemu_include/linux/uaccess.h
+openvzemu_include/linux/rtnetlink.h
+openvzemu_include/linux/iova.h
+openvzemu_include/linux/configfs.h
+openvzemu_include/linux/pnp.h
+openvzemu_include/linux/ethtool.h
+openvzemu_include/linux/isdn_divertif.h
+openvzemu_include/linux/cycx_x25.h
+openvzemu_include/linux/kernel_stat.h
+openvzemu_include/linux/inotify.h
+openvzemu_include/linux/atm_nicstar.h
+openvzemu_include/linux/if_tr.h
+openvzemu_include/linux/kernel.h
+openvzemu_include/linux/atm_tcp.h
+openvzemu_include/linux/notifier.h
+openvzemu_include/linux/qnxtypes.h
+openvzemu_include/linux/netfilter_decnet.h
+openvzemu_include/linux/netfilter_arp/
+openvzemu_include/linux/netfilter_arp/arpt_mangle.h
+openvzemu_include/linux/netfilter_arp/Kbuild
+openvzemu_include/linux/netfilter_arp/arp_tables.h
+openvzemu_include/linux/via.h
+openvzemu_include/linux/mmu_notifier.h
+openvzemu_include/linux/ultrasound.h
+openvzemu_include/linux/joystick.h
+openvzemu_include/linux/wanrouter.h
+openvzemu_include/linux/baycom.h
+openvzemu_include/linux/generic_serial.h
+openvzemu_include/linux/if.h
+openvzemu_include/linux/hysdn_if.h
+openvzemu_include/linux/crc-ccitt.h
+openvzemu_include/linux/consolemap.h
+openvzemu_include/linux/utsname.h
+openvzemu_include/linux/pagemap.h
+openvzemu_include/linux/coda_fs_i.h
+openvzemu_include/linux/types.h
+openvzemu_include/linux/debugfs.h
+openvzemu_include/linux/pm.h
+openvzemu_include/linux/magic.h
+openvzemu_include/linux/genhd.h
+openvzemu_include/linux/vzevent.h
+openvzemu_include/linux/coda_psdev.h
+openvzemu_include/linux/stat.h
+openvzemu_include/linux/rose.h
+openvzemu_include/linux/hdlc/
+openvzemu_include/linux/hdlc/ioctl.h
+openvzemu_include/linux/hdlc/Kbuild
+openvzemu_include/linux/msi.h
+openvzemu_include/linux/if_addrlabel.h
+openvzemu_include/linux/pkt_sched.h
+openvzemu_include/linux/mc146818rtc.h
+openvzemu_include/linux/atmapi.h
+openvzemu_include/linux/leds.h
+openvzemu_include/linux/vzctl_venet.h
+openvzemu_include/linux/if_slip.h
+openvzemu_include/linux/dqblk_v2.h
+openvzemu_include/linux/grmsg.h
+openvzemu_include/linux/hash.h
+openvzemu_include/linux/netdevice.h
+openvzemu_include/linux/hdlc.h
+openvzemu_include/linux/usb_otg.h
+openvzemu_include/linux/crc16.h
+openvzemu_include/linux/bcd.h
+openvzemu_include/linux/cm4000_cs.h
+openvzemu_include/linux/journal-head.h
+openvzemu_include/linux/parser.h
+openvzemu_include/linux/coda_cache.h
+openvzemu_include/linux/netfilter_ipv6.h
+openvzemu_include/linux/mqueue.h
+openvzemu_include/linux/ipv6.h
+openvzemu_include/linux/smb.h
+openvzemu_include/linux/fs_enet_pd.h
+openvzemu_include/linux/zftape.h
+openvzemu_include/linux/textsearch_fsm.h
+openvzemu_include/linux/err.h
+openvzemu_include/linux/atalk.h
+openvzemu_include/linux/ticable.h
+openvzemu_include/linux/i2c-algo-ite.h
+openvzemu_include/linux/serio.h
+openvzemu_include/linux/if_frad.h
+openvzemu_include/linux/kref.h
+openvzemu_include/linux/ncp_mount.h
+openvzemu_include/linux/hil_mlc.h
+openvzemu_include/linux/inet_diag.h
+openvzemu_include/linux/netfilter_logging.h
+openvzemu_include/linux/nfs_idmap.h
+openvzemu_include/linux/udp.h
+openvzemu_include/linux/fsnotify.h
+openvzemu_include/linux/fd1772.h
+openvzemu_include/linux/i2o-dev.h
+openvzemu_include/linux/version.h
+openvzemu_include/linux/iommu-helper.h
+openvzemu_include/linux/cpufreq.h
+openvzemu_include/linux/rslib.h
+openvzemu_include/linux/lcd.h
+openvzemu_include/linux/syscalls.h
+openvzemu_include/linux/thread_info.h
+openvzemu_include/linux/vmstat.h
+openvzemu_include/linux/tipc_config.h
+openvzemu_include/linux/prio_tree.h
+openvzemu_include/linux/atmdev.h
+openvzemu_include/linux/in6.h
+openvzemu_include/linux/compiler-gcc4.h
+openvzemu_include/linux/atm_he.h
+openvzemu_include/linux/veprintk.h
+openvzemu_include/linux/radix-tree.h
+openvzemu_include/linux/ioctl32.h
+openvzemu_include/linux/transport_class.h
+openvzemu_include/linux/dcache.h
+openvzemu_include/linux/input.h
+openvzemu_include/linux/sc26198.h
+openvzemu_include/linux/inet.h
+openvzemu_include/linux/spinlock_api_up.h
+openvzemu_include/linux/netfilter/
+openvzemu_include/linux/netfilter/xt_connmark.h
+openvzemu_include/linux/netfilter/nfnetlink.h
+openvzemu_include/linux/netfilter/xt_MARK.h
+openvzemu_include/linux/netfilter/xt_pkttype.h
+openvzemu_include/linux/netfilter/xt_CONNMARK.h
+openvzemu_include/linux/netfilter/xt_connbytes.h
+openvzemu_include/linux/netfilter/xt_realm.h
+openvzemu_include/linux/netfilter/xt_dccp.h
+openvzemu_include/linux/netfilter/nfnetlink_queue.h
+openvzemu_include/linux/netfilter/x_tables.h
+openvzemu_include/linux/netfilter/xt_CONNSECMARK.h
+openvzemu_include/linux/netfilter/xt_CLASSIFY.h
+openvzemu_include/linux/netfilter/xt_conntrack.h
+openvzemu_include/linux/netfilter/xt_mac.h
+openvzemu_include/linux/netfilter/nf_conntrack_sctp.h
+openvzemu_include/linux/netfilter/nf_conntrack_common.h
+openvzemu_include/linux/netfilter/xt_state.h
+openvzemu_include/linux/netfilter/xt_tcpmss.h
+openvzemu_include/linux/netfilter/xt_length.h
+openvzemu_include/linux/netfilter/nf_conntrack_tuple_common.h
+openvzemu_include/linux/netfilter/xt_tcpudp.h
+openvzemu_include/linux/netfilter/xt_limit.h
+openvzemu_include/linux/netfilter/xt_helper.h
+openvzemu_include/linux/netfilter/xt_sctp.h
+openvzemu_include/linux/netfilter/Kbuild
+openvzemu_include/linux/netfilter/xt_NFQUEUE.h
+openvzemu_include/linux/netfilter/xt_esp.h
+openvzemu_include/linux/netfilter/nf_conntrack_tcp.h
+openvzemu_include/linux/netfilter/xt_comment.h
+openvzemu_include/linux/netfilter/xt_connlimit.h
+openvzemu_include/linux/netfilter/xt_mark.h
+openvzemu_include/linux/netfilter/xt_policy.h
+openvzemu_include/linux/netfilter/xt_dscp.h
+openvzemu_include/linux/netfilter/xt_multiport.h
+openvzemu_include/linux/netfilter/xt_DSCP.h
+openvzemu_include/linux/netfilter/nfnetlink_log.h
+openvzemu_include/linux/netfilter/xt_physdev.h
+openvzemu_include/linux/netfilter/xt_statistic.h
+openvzemu_include/linux/netfilter/nfnetlink_conntrack.h
+openvzemu_include/linux/netfilter/nf_conntrack_ftp.h
+openvzemu_include/linux/netfilter/xt_SECMARK.h
+openvzemu_include/linux/netfilter/xt_quota.h
+openvzemu_include/linux/netfilter/xt_string.h
+openvzemu_include/linux/sdla_fr.h
+openvzemu_include/linux/quotaio_v2.h
+openvzemu_include/linux/mv643xx.h
+openvzemu_include/linux/phonedev.h
+openvzemu_include/linux/lm_interface.h
+openvzemu_include/linux/rmap.h
+openvzemu_include/linux/nfs_fs.h
+openvzemu_include/linux/zorro.h
+openvzemu_include/linux/isicom.h
+openvzemu_include/linux/fscache-cache.h
+openvzemu_include/linux/comstats.h
+openvzemu_include/linux/dm9000.h
+openvzemu_include/linux/net.h
+openvzemu_include/linux/hpfs_fs.h
+openvzemu_include/linux/cd1400.h
+openvzemu_include/linux/un.h
+openvzemu_include/linux/if_arp.h
+openvzemu_include/linux/shmem_fs.h
+openvzemu_include/linux/netlink.h
+openvzemu_include/linux/usb_ch9.h
+openvzemu_include/linux/socket.h
+openvzemu_include/linux/msidef.h
+openvzemu_include/linux/nfs_mount.h
+openvzemu_include/linux/getcpu.h
+openvzemu_include/linux/user.h
+openvzemu_include/linux/mempolicy.h
+openvzemu_include/linux/rio_regs.h
+openvzemu_include/linux/sysfs.h
+openvzemu_include/linux/atm_suni.h
+openvzemu_include/linux/tsacct_kern.h
+openvzemu_include/linux/hippidevice.h
+openvzemu_include/linux/fadvise.h
+openvzemu_include/linux/vmalloc.h
+openvzemu_include/linux/selinux_netlink.h
+openvzemu_include/linux/irq_cpustat.h
+openvzemu_include/linux/elevator.h
+openvzemu_include/linux/init_signals.h
+openvzemu_include/linux/ps2esdi.h
+openvzemu_include/linux/uio_driver.h
+openvzemu_include/linux/smp.h
+openvzemu_include/linux/blkpg.h
+openvzemu_include/linux/mm_inline.h
+openvzemu_include/linux/qnx4_fs.h
+openvzemu_include/linux/kbd_diacr.h
+openvzemu_include/linux/mii.h
+openvzemu_include/linux/auto_dev-ioctl.h
+openvzemu_include/linux/isdn/
+openvzemu_include/linux/isdn/capilli.h
+openvzemu_include/linux/isdn/capiutil.h
+openvzemu_include/linux/isdn/capicmd.h
+openvzemu_include/linux/isdn/Kbuild
+openvzemu_include/linux/bitops.h
+openvzemu_include/linux/i2c-id.h
+openvzemu_include/linux/vermagic.h
+openvzemu_include/linux/dqblk_xfs.h
+openvzemu_include/linux/cdev.h
+openvzemu_include/linux/sysdev.h
+openvzemu_include/linux/if_bonding.h
+openvzemu_include/linux/byteorder/
+openvzemu_include/linux/byteorder/swab.h
+openvzemu_include/linux/byteorder/big_endian.h
+openvzemu_include/linux/byteorder/swabb.h
+openvzemu_include/linux/byteorder/little_endian.h
+openvzemu_include/linux/byteorder/generic.h
+openvzemu_include/linux/byteorder/Kbuild
+openvzemu_include/linux/byteorder/pdp_endian.h
+openvzemu_include/linux/amigaffs.h
+openvzemu_include/linux/mutex.h
+openvzemu_include/linux/hdlcdrv.h
+openvzemu_include/linux/stddef.h
+openvzemu_include/asm/
+openvzemu_include/asm/rwlock.h
+openvzemu_include/asm/statfs.h
+openvzemu_include/asm/i8259.h
+openvzemu_include/asm/mmx.h
+openvzemu_include/asm/apicdef.h
+openvzemu_include/asm/rwsem.h
+openvzemu_include/asm/ucontext.h
+openvzemu_include/asm/ioctl.h
+openvzemu_include/asm/mach-generic/
+openvzemu_include/asm/mach-generic/mach_mpspec.h
+openvzemu_include/asm/mach-generic/mach_apicdef.h
+openvzemu_include/asm/mach-generic/mach_apic.h
+openvzemu_include/asm/mach-generic/irq_vectors_limits.h
+openvzemu_include/asm/mach-generic/mach_mpparse.h
+openvzemu_include/asm/mach-generic/mach_ipi.h
+openvzemu_include/asm/mman.h
+openvzemu_include/asm/k8.h
+openvzemu_include/asm/mach-voyager/
+openvzemu_include/asm/mach-voyager/entry_arch.h
+openvzemu_include/asm/mach-voyager/do_timer.h
+openvzemu_include/asm/mach-voyager/irq_vectors.h
+openvzemu_include/asm/mach-voyager/setup_arch.h
+openvzemu_include/asm/msgbuf.h
+openvzemu_include/asm/mach-xen/
+openvzemu_include/asm/mach-xen/irq_vectors.h
+openvzemu_include/asm/mach-xen/mach_traps.h
+openvzemu_include/asm/mach-xen/asm/
+openvzemu_include/asm/mach-xen/asm/stacktrace.h
+openvzemu_include/asm/mach-xen/asm/pci.h
+openvzemu_include/asm/mach-xen/asm/pgtable-3level-defs.h
+openvzemu_include/asm/mach-xen/asm/pgtable-2level-defs.h
+openvzemu_include/asm/mach-xen/asm/processor.h
+openvzemu_include/asm/mach-xen/asm/system.h
+openvzemu_include/asm/mach-xen/asm/setup.h
+openvzemu_include/asm/mach-xen/asm/maddr.h
+openvzemu_include/asm/mach-xen/asm/synch_bitops.h
+openvzemu_include/asm/mach-xen/asm/dma-mapping.h
+openvzemu_include/asm/mach-xen/asm/highmem.h
+openvzemu_include/asm/mach-xen/asm/irqflags.h
+openvzemu_include/asm/mach-xen/asm/io.h
+openvzemu_include/asm/mach-xen/asm/ptrace.h
+openvzemu_include/asm/mach-xen/asm/scatterlist.h
+openvzemu_include/asm/mach-xen/asm/pgtable-2level.h
+openvzemu_include/asm/mach-xen/asm/segment.h
+openvzemu_include/asm/mach-xen/asm/hw_irq.h
+openvzemu_include/asm/mach-xen/asm/vga.h
+openvzemu_include/asm/mach-xen/asm/desc.h
+openvzemu_include/asm/mach-xen/asm/pgtable-3level.h
+openvzemu_include/asm/mach-xen/asm/spinlock.h
+openvzemu_include/asm/mach-xen/asm/page.h
+openvzemu_include/asm/mach-xen/asm/param.h
+openvzemu_include/asm/mach-xen/asm/hypervisor.h
+openvzemu_include/asm/mach-xen/asm/pgtable.h
+openvzemu_include/asm/mach-xen/asm/mmu_context.h
+openvzemu_include/asm/mach-xen/asm/floppy.h
+openvzemu_include/asm/mach-xen/asm/fixmap.h
+openvzemu_include/asm/mach-xen/asm/hypercall.h
+openvzemu_include/asm/mach-xen/asm/tlbflush.h
+openvzemu_include/asm/mach-xen/asm/swiotlb.h
+openvzemu_include/asm/mach-xen/asm/mmu.h
+openvzemu_include/asm/mach-xen/asm/timer.h
+openvzemu_include/asm/mach-xen/asm/agp.h
+openvzemu_include/asm/mach-xen/asm/kmap_types.h
+openvzemu_include/asm/mach-xen/asm/pgalloc.h
+openvzemu_include/asm/mach-xen/asm/smp.h
+openvzemu_include/asm/mach-xen/setup_arch.h
+openvzemu_include/asm/stacktrace.h
+openvzemu_include/asm/pci.h
+openvzemu_include/asm/seccomp.h
+openvzemu_include/asm/termbits.h
+openvzemu_include/asm/asm-offsets.h
+openvzemu_include/asm/pgtable-3level-defs.h
+openvzemu_include/asm/fcntl.h
+openvzemu_include/asm/unistd.h
+openvzemu_include/asm/topology.h
+openvzemu_include/asm/auxvec.h
+openvzemu_include/asm/pgtable-2level-defs.h
+openvzemu_include/asm/local.h
+openvzemu_include/asm/posix_types.h
+openvzemu_include/asm/dmi.h
+openvzemu_include/asm/ioctls.h
+openvzemu_include/asm/processor.h
+openvzemu_include/asm/spinlock_types.h
+openvzemu_include/asm/system.h
+openvzemu_include/asm/setup.h
+openvzemu_include/asm/atomic.h
+openvzemu_include/asm/parport.h
+openvzemu_include/asm/mach-default/
+openvzemu_include/asm/mach-default/entry_arch.h
+openvzemu_include/asm/mach-default/do_timer.h
+openvzemu_include/asm/mach-default/irq_vectors.h
+openvzemu_include/asm/mach-default/mach_timer.h
+openvzemu_include/asm/mach-default/bios_ebda.h
+openvzemu_include/asm/mach-default/mach_wakecpu.h
+openvzemu_include/asm/mach-default/smpboot_hooks.h
+openvzemu_include/asm/mach-default/mach_mpspec.h
+openvzemu_include/asm/mach-default/mach_reboot.h
+openvzemu_include/asm/mach-default/mach_traps.h
+openvzemu_include/asm/mach-default/mach_apicdef.h
+openvzemu_include/asm/mach-default/pci-functions.h
+openvzemu_include/asm/mach-default/mach_time.h
+openvzemu_include/asm/mach-default/mach_apic.h
+openvzemu_include/asm/mach-default/irq_vectors_limits.h
+openvzemu_include/asm/mach-default/mach_mpparse.h
+openvzemu_include/asm/mach-default/setup_arch.h
+openvzemu_include/asm/mach-default/mach_ipi.h
+openvzemu_include/asm/mach-default/io_ports.h
+openvzemu_include/asm/mach-default/apm.h
+openvzemu_include/asm/msr.h
+openvzemu_include/asm/futex.h
+openvzemu_include/asm/dma.h
+openvzemu_include/asm/cpu.h
+openvzemu_include/asm/sparsemem.h
+openvzemu_include/asm/srat.h
+openvzemu_include/asm/kexec.h
+openvzemu_include/asm/namei.h
+openvzemu_include/asm/intel_arch_perfmon.h
+openvzemu_include/asm/mmzone.h
+openvzemu_include/asm/dma-mapping.h
+openvzemu_include/asm/cputime.h
+openvzemu_include/asm/mach-visws/
+openvzemu_include/asm/mach-visws/entry_arch.h
+openvzemu_include/asm/mach-visws/cobalt.h
+openvzemu_include/asm/mach-visws/lithium.h
+openvzemu_include/asm/mach-visws/do_timer.h
+openvzemu_include/asm/mach-visws/irq_vectors.h
+openvzemu_include/asm/mach-visws/piix4.h
+openvzemu_include/asm/mach-visws/smpboot_hooks.h
+openvzemu_include/asm/mach-visws/mach_apicdef.h
+openvzemu_include/asm/mach-visws/mach_apic.h
+openvzemu_include/asm/mach-visws/setup_arch.h
+openvzemu_include/asm/dwarf2.h
+openvzemu_include/asm/suspend.h
+openvzemu_include/asm/unwind.h
+openvzemu_include/asm/boot.h
+openvzemu_include/asm/crash.h
+openvzemu_include/asm/ipc.h
+openvzemu_include/asm/kprobes.h
+openvzemu_include/asm/mach-summit/
+openvzemu_include/asm/mach-summit/mach_mpspec.h
+openvzemu_include/asm/mach-summit/mach_apicdef.h
+openvzemu_include/asm/mach-summit/mach_apic.h
+openvzemu_include/asm/mach-summit/irq_vectors_limits.h
+openvzemu_include/asm/mach-summit/mach_mpparse.h
+openvzemu_include/asm/mach-summit/mach_ipi.h
+openvzemu_include/asm/apic.h
+openvzemu_include/asm/hardirq.h
+openvzemu_include/asm/mtrr.h
+openvzemu_include/asm/percpu.h
+openvzemu_include/asm/timex.h
+openvzemu_include/asm/pvclock.h
+openvzemu_include/asm/siginfo.h
+openvzemu_include/asm/poll.h
+openvzemu_include/asm/mce.h
+openvzemu_include/asm/serial.h
+openvzemu_include/asm/a.out.h
+openvzemu_include/asm/mpspec.h
+openvzemu_include/asm/elf.h
+openvzemu_include/asm/highmem.h
+openvzemu_include/asm/kvm_para.h
+openvzemu_include/asm/cache.h
+openvzemu_include/asm/tlb.h
+openvzemu_include/asm/8253pit.h
+openvzemu_include/asm/numaq.h
+openvzemu_include/asm/vic.h
+openvzemu_include/asm/linkage.h
+openvzemu_include/asm/ide.h
+openvzemu_include/asm/tracehook.h
+openvzemu_include/asm/sigcontext.h
+openvzemu_include/asm/irqflags.h
+openvzemu_include/asm/ipcbuf.h
+openvzemu_include/asm/io.h
+openvzemu_include/asm/ptrace.h
+openvzemu_include/asm/mpspec_def.h
+openvzemu_include/asm/xor.h
+openvzemu_include/asm/string.h
+openvzemu_include/asm/scatterlist.h
+openvzemu_include/asm/errno.h
+openvzemu_include/asm/mach-numaq/
+openvzemu_include/asm/mach-numaq/mach_wakecpu.h
+openvzemu_include/asm/mach-numaq/mach_mpspec.h
+openvzemu_include/asm/mach-numaq/mach_apicdef.h
+openvzemu_include/asm/mach-numaq/mach_apic.h
+openvzemu_include/asm/mach-numaq/mach_mpparse.h
+openvzemu_include/asm/mach-numaq/mach_ipi.h
+openvzemu_include/asm/debugreg.h
+openvzemu_include/asm/pgtable-2level.h
+openvzemu_include/asm/delay.h
+openvzemu_include/asm/mca.h
+openvzemu_include/asm/mach-bigsmp/
+openvzemu_include/asm/mach-bigsmp/mach_mpspec.h
+openvzemu_include/asm/mach-bigsmp/mach_apicdef.h
+openvzemu_include/asm/mach-bigsmp/mach_apic.h
+openvzemu_include/asm/mach-bigsmp/mach_ipi.h
+openvzemu_include/asm/e820.h
+openvzemu_include/asm/segment.h
+openvzemu_include/asm/hw_irq.h
+openvzemu_include/asm/vga.h
+openvzemu_include/asm/desc.h
+openvzemu_include/asm/Kbuild
+openvzemu_include/asm/module.h
+openvzemu_include/asm/checksum.h
+openvzemu_include/asm/hpet.h
+openvzemu_include/asm/pgtable-3level.h
+openvzemu_include/asm/spinlock.h
+openvzemu_include/asm/rtc.h
+openvzemu_include/asm/nmi.h
+openvzemu_include/asm/page.h
+openvzemu_include/asm/shmparam.h
+openvzemu_include/asm/pci-direct.h
+openvzemu_include/asm/cpufeature.h
+openvzemu_include/asm/therm_throt.h
+openvzemu_include/asm/sockios.h
+openvzemu_include/asm/irq.h
+openvzemu_include/asm/i8253.h
+openvzemu_include/asm/numa.h
+openvzemu_include/asm/acpi.h
+openvzemu_include/asm/unaligned.h
+openvzemu_include/asm/pvclock-abi.h
+openvzemu_include/asm/resource.h
+openvzemu_include/asm/i387.h
+openvzemu_include/asm/generic-hypervisor.h
+openvzemu_include/asm/param.h
+openvzemu_include/asm/genapic.h
+openvzemu_include/asm/sembuf.h
+openvzemu_include/asm/arch_hooks.h
+openvzemu_include/asm/mach-es7000/
+openvzemu_include/asm/mach-es7000/mach_wakecpu.h
+openvzemu_include/asm/mach-es7000/mach_mpspec.h
+openvzemu_include/asm/mach-es7000/mach_apicdef.h
+openvzemu_include/asm/mach-es7000/mach_apic.h
+openvzemu_include/asm/mach-es7000/mach_mpparse.h
+openvzemu_include/asm/mach-es7000/mach_ipi.h
+openvzemu_include/asm/pgtable.h
+openvzemu_include/asm/byteorder.h
+openvzemu_include/asm/vm86.h
+openvzemu_include/asm/mmu_context.h
+openvzemu_include/asm/emergency-restart.h
+openvzemu_include/asm/floppy.h
+openvzemu_include/asm/fixmap.h
+openvzemu_include/asm/vmware.h
+openvzemu_include/asm/bugs.h
+openvzemu_include/asm/bug.h
+openvzemu_include/asm/signal.h
+openvzemu_include/asm/atomic64_32.h
+openvzemu_include/asm/tlbflush.h
+openvzemu_include/asm/mmu.h
+openvzemu_include/asm/timer.h
+openvzemu_include/asm/termios.h
+openvzemu_include/asm/shmbuf.h
+openvzemu_include/asm/uaccess.h
+openvzemu_include/asm/atomic_kmap.h
+openvzemu_include/asm/agp.h
+openvzemu_include/asm/types.h
+openvzemu_include/asm/mca_dma.h
+openvzemu_include/asm/stat.h
+openvzemu_include/asm/msi.h
+openvzemu_include/asm/current.h
+openvzemu_include/asm/mc146818rtc.h
+openvzemu_include/asm/ist.h
+openvzemu_include/asm/alternative.h
+openvzemu_include/asm/tsc.h
+openvzemu_include/asm/kmap_types.h
+openvzemu_include/asm/cacheflush.h
+openvzemu_include/asm/div64.h
+openvzemu_include/asm/sections.h
+openvzemu_include/asm/thread_info.h
+openvzemu_include/asm/io_apic.h
+openvzemu_include/asm/pgalloc.h
+openvzemu_include/asm/edac.h
+openvzemu_include/asm/socket.h
+openvzemu_include/asm/user.h
+openvzemu_include/asm/math_emu.h
+openvzemu_include/asm/voyager.h
+openvzemu_include/asm/smp.h
+openvzemu_include/asm/semaphore.h
+openvzemu_include/asm/bitops.h
+openvzemu_include/asm/ldt.h
+openvzemu_include/asm/kdebug.h
+openvzemu_include/asm/mutex.h
+--------------------------------
+Buidling s3f/api ... 
+--------------------------------
+g++ -Wall -c -g  -DOPENVZ_EMULATION  -I../ -I../openvzemu_include -O3 -c interface.cc
+g++ -Wall -c -g  -DOPENVZ_EMULATION  -I../ -I../openvzemu_include -O3 -c entity.cc
+g++ -Wall -c -g  -DOPENVZ_EMULATION  -I../ -I../openvzemu_include -O3 -c message.cc
+g++ -Wall -c -g  -DOPENVZ_EMULATION  -I../ -I../openvzemu_include -O3 -c inchannel.cc
+g++ -Wall -c -g  -DOPENVZ_EMULATION  -I../ -I../openvzemu_include -O3 -c outchannel.cc
+g++ -Wall -c -g  -DOPENVZ_EMULATION  -I../ -I../openvzemu_include -O3 -c process.cc
+g++ -Wall -c -g  -DOPENVZ_EMULATION  -I../ -I../openvzemu_include -O3 -c timeline.cc
+g++ -Wall -c -g  -DOPENVZ_EMULATION  -I../ -I../openvzemu_include -O3 -c event.cc
+rm -f s3f.a
+ar cq s3f.a interface.o entity.o message.o inchannel.o interface.o outchannel.o process.o timeline.o event.o 
+--------------------------------
+Buidling s3f/rng ... 
+--------------------------------
+g++ -Wall -c -g  -c RngStream.cc
+g++ -Wall -c -g  -c rng.cc
+rm -f rng.a
+ar cq rng.a RngStream.o rng.o
+--------------------------------
+Buidling s3f/aux ... 
+--------------------------------
+g++ -Wall -c -g -O3 -I../ -I../openvzemu_include -c barrier.cc
+g++ -Wall -c -g -O3 -I../ -I../openvzemu_include -c barrier_mutex.cc
+g++ -Wall -c -g -O3 -I../ -I../openvzemu_include -c fast_barrier.cc
+g++ -Wall -c -g -O3 -I../ -I../openvzemu_include -c fast_tree_barrier.cc
+rm -f aux.a
+ar cq aux.a barrier.o barrier_mutex.o fast_barrier.o fast_tree_barrier.o
+--------------------------------
+Buidling s3f/simctrl ... 
+--------------------------------
+g++ -Wall -c -g -I../ -I../openvzemu_include -DOPENVZ_EMULATION -c simctrl.cc
+g++ -Wall -c -g -I../ -I../openvzemu_include -DOPENVZ_EMULATION -c ssimctrl.cc
+g++ -Wall -c -g -I../ -I../openvzemu_include -DOPENVZ_EMULATION -c dsimctrl.cc
+g++ -Wall -c -g -I../ -I../openvzemu_include -DOPENVZ_EMULATION -c vtime_syscall.cc
+g++ -Wall -c -g -I../ -I../openvzemu_include -DOPENVZ_EMULATION -c lookahead.cc
+g++ -Wall -c -g -I../ -I../openvzemu_include -DOPENVZ_EMULATION -c asyncmsg.cc
+rm -f sc.a
+ar cq sc.a simctrl.o ssimctrl.o dsimctrl.o vtime_syscall.o lookahead.o asyncmsg.o
+--------------------------------
+Buidling s3f/dml ... 
+--------------------------------
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking for bison... bison -y
+checking for ranlib... ranlib
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for strcasecmp... yes
+checking for strdup... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating test/dml2xml/Makefile
+config.status: creating test/dumpdml/Makefile
+config.status: creating test/listdml/Makefile
+config.status: creating dml-config.h
+config.status: dml-config.h is unchanged
+config.status: executing depfiles commands
+ 
+----------------------------------------------------------------------
+PRIME DML has been configured successfully with the following options:
+ 
+general debug information ...... no
+location information ........... yes
+----------------------------------------------------------------------
+ 
+Making clean in test
+make[1]: Entering directory `/home/yjq/Softwares/S3F-full/full/dml/test'
+cd dml2xml && make clean
+make[2]: Entering directory `/home/yjq/Softwares/S3F-full/full/dml/test/dml2xml'
+test -z "dml2xml" || rm -f dml2xml
+test -z "dml2xml" || rm -f dml2xml
+test -z ".dirstamp test1.out test2.out" || rm -f .dirstamp test1.out test2.out
+rm -f *.o
+make[2]: Leaving directory `/home/yjq/Softwares/S3F-full/full/dml/test/dml2xml'
+cd dumpdml && make clean
+make[2]: Entering directory `/home/yjq/Softwares/S3F-full/full/dml/test/dumpdml'
+test -z "dumpdml" || rm -f dumpdml
+test -z "dumpdml" || rm -f dumpdml
+test -z ".dirstamp test1.out test2.out" || rm -f .dirstamp test1.out test2.out
+rm -f *.o
+make[2]: Leaving directory `/home/yjq/Softwares/S3F-full/full/dml/test/dumpdml'
+cd listdml && make clean
+make[2]: Entering directory `/home/yjq/Softwares/S3F-full/full/dml/test/listdml'
+test -z "listdml" || rm -f listdml
+test -z "listdml" || rm -f listdml
+test -z ".dirstamp test1.out test2.out" || rm -f .dirstamp test1.out test2.out
+rm -f *.o
+make[2]: Leaving directory `/home/yjq/Softwares/S3F-full/full/dml/test/listdml'
+make[1]: Leaving directory `/home/yjq/Softwares/S3F-full/full/dml/test'
+Making clean in .
+make[1]: Entering directory `/home/yjq/Softwares/S3F-full/full/dml'
+test -z "dml-lex.cc dml-syntax.h dml-syntax.cc lex.yy.c y.tab.h y.tab.cc y.output" || rm -f dml-lex.cc dml-syntax.h dml-syntax.cc lex.yy.c y.tab.h y.tab.cc y.output
+test -z "libdml.a" || rm -f libdml.a
+rm -f *.o
+make[1]: Leaving directory `/home/yjq/Softwares/S3F-full/full/dml'
+flex   dml-lex.ll
+mv -f lex.yy.c dml-lex.cc
+bison -y  -dt -v dml-syntax.yy
+mv -f y.tab.c dml-syntax.cc
+mv -f y.tab.h dml-syntax.h
+make  all-recursive
+make[1]: Entering directory `/home/yjq/Softwares/S3F-full/full/dml'
+Making all in .
+make[2]: Entering directory `/home/yjq/Softwares/S3F-full/full/dml'
+if g++ -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT dml.o -MD -MP -MF ".deps/dml.Tpo" -c -o dml.o dml.cc; \
+	then mv -f ".deps/dml.Tpo" ".deps/dml.Po"; else rm -f ".deps/dml.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT dml-dictionary.o -MD -MP -MF ".deps/dml-dictionary.Tpo" -c -o dml-dictionary.o dml-dictionary.cc; \
+	then mv -f ".deps/dml-dictionary.Tpo" ".deps/dml-dictionary.Po"; else rm -f ".deps/dml-dictionary.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT dml-locinfo.o -MD -MP -MF ".deps/dml-locinfo.Tpo" -c -o dml-locinfo.o dml-locinfo.cc; \
+	then mv -f ".deps/dml-locinfo.Tpo" ".deps/dml-locinfo.Po"; else rm -f ".deps/dml-locinfo.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT dml-tree.o -MD -MP -MF ".deps/dml-tree.Tpo" -c -o dml-tree.o dml-tree.cc; \
+	then mv -f ".deps/dml-tree.Tpo" ".deps/dml-tree.Po"; else rm -f ".deps/dml-tree.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT dml-exception.o -MD -MP -MF ".deps/dml-exception.Tpo" -c -o dml-exception.o dml-exception.cc; \
+	then mv -f ".deps/dml-exception.Tpo" ".deps/dml-exception.Po"; else rm -f ".deps/dml-exception.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT dml-lex.o -MD -MP -MF ".deps/dml-lex.Tpo" -c -o dml-lex.o dml-lex.cc; \
+	then mv -f ".deps/dml-lex.Tpo" ".deps/dml-lex.Po"; else rm -f ".deps/dml-lex.Tpo"; exit 1; fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT dml-syntax.o -MD -MP -MF ".deps/dml-syntax.Tpo" -c -o dml-syntax.o dml-syntax.cc; \
+	then mv -f ".deps/dml-syntax.Tpo" ".deps/dml-syntax.Po"; else rm -f ".deps/dml-syntax.Tpo"; exit 1; fi
+rm -f libdml.a
+ar cru libdml.a dml.o dml-dictionary.o dml-locinfo.o dml-tree.o dml-exception.o dml-lex.o dml-syntax.o 
+ranlib libdml.a
+make[2]: Leaving directory `/home/yjq/Softwares/S3F-full/full/dml'
+Making all in test
+make[2]: Entering directory `/home/yjq/Softwares/S3F-full/full/dml/test'
+cd dml2xml && make all
+make[3]: Entering directory `/home/yjq/Softwares/S3F-full/full/dml/test/dml2xml'
+if g++ -DHAVE_CONFIG_H -I. -I. -I../..      -g -O2 -MT dml2xml.o -MD -MP -MF ".deps/dml2xml.Tpo" -c -o dml2xml.o dml2xml.cc; \
+	then mv -f ".deps/dml2xml.Tpo" ".deps/dml2xml.Po"; else rm -f ".deps/dml2xml.Tpo"; exit 1; fi
+g++  -g -O2   -o dml2xml  dml2xml.o -L../.. -ldml 
+make[3]: Leaving directory `/home/yjq/Softwares/S3F-full/full/dml/test/dml2xml'
+cd dumpdml && make all
+make[3]: Entering directory `/home/yjq/Softwares/S3F-full/full/dml/test/dumpdml'
+if g++ -DHAVE_CONFIG_H -I. -I. -I../..      -g -O2 -MT dumpdml.o -MD -MP -MF ".deps/dumpdml.Tpo" -c -o dumpdml.o dumpdml.cc; \
+	then mv -f ".deps/dumpdml.Tpo" ".deps/dumpdml.Po"; else rm -f ".deps/dumpdml.Tpo"; exit 1; fi
+g++  -g -O2   -o dumpdml  dumpdml.o -L../.. -ldml 
+make[3]: Leaving directory `/home/yjq/Softwares/S3F-full/full/dml/test/dumpdml'
+cd listdml && make all
+make[3]: Entering directory `/home/yjq/Softwares/S3F-full/full/dml/test/listdml'
+if g++ -DHAVE_CONFIG_H -I. -I. -I../..      -g -O2 -MT listdml.o -MD -MP -MF ".deps/listdml.Tpo" -c -o listdml.o listdml.cc; \
+	then mv -f ".deps/listdml.Tpo" ".deps/listdml.Po"; else rm -f ".deps/listdml.Tpo"; exit 1; fi
+g++  -g -O2   -o listdml  listdml.o -L../.. -ldml 
+make[3]: Leaving directory `/home/yjq/Softwares/S3F-full/full/dml/test/listdml'
+make[2]: Leaving directory `/home/yjq/Softwares/S3F-full/full/dml/test'
+make[1]: Leaving directory `/home/yjq/Softwares/S3F-full/full/dml'
+--------------------------------
+Buidling s3f/metis ... 
+--------------------------------
+--------------------------------
+Buidling s3f/openflowlib ... 
+--------------------------------
+--------------------------------
+Buidling s3f/s3fnet ... 
+--------------------------------
+rm -f s3fnet veslave dmlenv dmlpart src/extra/getopt.o src/extra/getopt1.o  src/util/errhandle.o src/util/tries/trie0.o src/util/tries/trie1.o src/util/tries/trie2.o src/util/tries/trie3.o src/util/tries/trie4.o src/util/tries/triedata_array0.o src/util/tries/triedata_array1.o src/util/tries/triedata_array2.o  src/env/namesvc.o  src/net/host.o src/net/ip_prefix.o src/net/cidr.o src/net/nhi.o src/net/dmlobj.o src/net/net.o src/net/link.o src/net/network_interface.o src/net/nic_queue.o src/net/droptail_queue.o src/net/red_queue.o src/net/mac48_address.o src/net/forwardingtable.o src/net/traffic.o src/net/route_caches/route_cache0.o src/net/route_caches/route_cache1.o src/net/route_caches/route_cache2.o  src/os/base/protocol_graph.o src/os/base/protocol_session.o src/os/base/nic_protocol_session.o src/os/base/lowest_protocol_session.o src/os/base/protocols.o src/os/base/protocol_message.o src/os/base/data_message.o  src/s3fnet.o  src/os/ipv4/ip_session.o src/os/ipv4/ip_message.o  src/os/simple_mac/simple_mac.o src/os/simple_mac/simple_mac_message.o  src/os/simple_phy/simple_phy.o  src/os/dummy/dummy_session.o src/os/dummy/dummy_message.o  src/os/openVZEmu/openVZEmu_event_session.o src/os/openVZEmu/openVZEmu_message.o  src/os/openflow_switch/openflow_switch_session.o src/os/openflow_switch/openflow_controller.o src/os/openflow_switch/openflow_controller_session.o src/os/openflow_switch/openflow_message.o src/os/openflow_switch/openflow_interface.o  src/os/socket/socket_master.o src/os/socket/nb_socket_master.o  src/os/tcp/tcp_message.o src/os/tcp/tcp_master.o src/os/tcp/tcp_blocks.o src/os/tcp/tcp_sndwnd.o src/os/tcp/tcp_rcvwnd.o src/os/tcp/tcp_session.o src/os/tcp/tcp_state.o src/os/tcp/tcp_sender.o src/os/tcp/tcp_receiver.o src/os/tcp/tcp_timer.o src/os/tcp/tcp_sack.o src/os/tcp/tcp_dump.o src/os/tcp/app/tcp_client.o src/os/tcp/app/tcp_server.o src/os/tcp/app/nb_tcp_server.o src/os/tcp/app/nb_tcp_client.o src/os/tcp/app/blocking_tcp_client.o  src/os/udp/udp_message.o src/os/udp/udp_master.o src/os/udp/udp_session.o src/os/udp/app/udp_client.o src/os/udp/app/udp_server.o	 src/dmlprep/dmlenv.env.o src/extra/getopt.o src/extra/getopt1.o src/dmlprep/dmlpart.part.o  src/extra/getopt.o src/extra/getopt1.o
+rm -f makefile.depend makefile.bak _tmp?.cc .tmpdat* *.log *~
+cc  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/extra/getopt.o -c src/extra/getopt.c
+cc  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/extra/getopt1.o -c src/extra/getopt1.c
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/util/errhandle.o -c src/util/errhandle.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/util/tries/trie0.o -c src/util/tries/trie0.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/util/tries/trie1.o -c src/util/tries/trie1.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/util/tries/trie2.o -c src/util/tries/trie2.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/util/tries/trie3.o -c src/util/tries/trie3.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/util/tries/trie4.o -c src/util/tries/trie4.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/util/tries/triedata_array0.o -c src/util/tries/triedata_array0.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/util/tries/triedata_array1.o -c src/util/tries/triedata_array1.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/util/tries/triedata_array2.o -c src/util/tries/triedata_array2.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/env/namesvc.o -c src/env/namesvc.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/host.o -c src/net/host.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/ip_prefix.o -c src/net/ip_prefix.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/cidr.o -c src/net/cidr.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/nhi.o -c src/net/nhi.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/dmlobj.o -c src/net/dmlobj.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/net.o -c src/net/net.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/link.o -c src/net/link.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/network_interface.o -c src/net/network_interface.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/nic_queue.o -c src/net/nic_queue.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/droptail_queue.o -c src/net/droptail_queue.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/red_queue.o -c src/net/red_queue.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/mac48_address.o -c src/net/mac48_address.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/forwardingtable.o -c src/net/forwardingtable.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/traffic.o -c src/net/traffic.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/route_caches/route_cache0.o -c src/net/route_caches/route_cache0.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/route_caches/route_cache1.o -c src/net/route_caches/route_cache1.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/net/route_caches/route_cache2.o -c src/net/route_caches/route_cache2.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/base/protocol_graph.o -c src/os/base/protocol_graph.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/base/protocol_session.o -c src/os/base/protocol_session.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/base/nic_protocol_session.o -c src/os/base/nic_protocol_session.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/base/lowest_protocol_session.o -c src/os/base/lowest_protocol_session.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/base/protocols.o -c src/os/base/protocols.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/base/protocol_message.o -c src/os/base/protocol_message.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/base/data_message.o -c src/os/base/data_message.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/s3fnet.o -c src/s3fnet.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/ipv4/ip_session.o -c src/os/ipv4/ip_session.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/ipv4/ip_message.o -c src/os/ipv4/ip_message.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/simple_mac/simple_mac.o -c src/os/simple_mac/simple_mac.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/simple_mac/simple_mac_message.o -c src/os/simple_mac/simple_mac_message.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/simple_phy/simple_phy.o -c src/os/simple_phy/simple_phy.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/dummy/dummy_session.o -c src/os/dummy/dummy_session.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/dummy/dummy_message.o -c src/os/dummy/dummy_message.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/openVZEmu/openVZEmu_event_session.o -c src/os/openVZEmu/openVZEmu_event_session.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/openVZEmu/openVZEmu_message.o -c src/os/openVZEmu/openVZEmu_message.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/openflow_switch/openflow_switch_session.o -c src/os/openflow_switch/openflow_switch_session.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/openflow_switch/openflow_controller.o -c src/os/openflow_switch/openflow_controller.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/openflow_switch/openflow_controller_session.o -c src/os/openflow_switch/openflow_controller_session.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/openflow_switch/openflow_message.o -c src/os/openflow_switch/openflow_message.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/openflow_switch/openflow_interface.o -c src/os/openflow_switch/openflow_interface.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/socket/socket_master.o -c src/os/socket/socket_master.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/socket/nb_socket_master.o -c src/os/socket/nb_socket_master.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_message.o -c src/os/tcp/tcp_message.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_master.o -c src/os/tcp/tcp_master.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_blocks.o -c src/os/tcp/tcp_blocks.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_sndwnd.o -c src/os/tcp/tcp_sndwnd.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_rcvwnd.o -c src/os/tcp/tcp_rcvwnd.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_session.o -c src/os/tcp/tcp_session.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_state.o -c src/os/tcp/tcp_state.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_sender.o -c src/os/tcp/tcp_sender.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_receiver.o -c src/os/tcp/tcp_receiver.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_timer.o -c src/os/tcp/tcp_timer.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_sack.o -c src/os/tcp/tcp_sack.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/tcp_dump.o -c src/os/tcp/tcp_dump.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/app/tcp_client.o -c src/os/tcp/app/tcp_client.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/app/tcp_server.o -c src/os/tcp/app/tcp_server.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/app/nb_tcp_server.o -c src/os/tcp/app/nb_tcp_server.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/app/nb_tcp_client.o -c src/os/tcp/app/nb_tcp_client.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/tcp/app/blocking_tcp_client.o -c src/os/tcp/app/blocking_tcp_client.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/udp/udp_message.o -c src/os/udp/udp_message.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/udp/udp_master.o -c src/os/udp/udp_master.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/udp/udp_session.o -c src/os/udp/udp_session.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/udp/app/udp_client.o -c src/os/udp/app/udp_client.cc
+g++  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/os/udp/app/udp_server.o -c src/os/udp/app/udp_server.cc
+g++ src/extra/getopt.o src/extra/getopt1.o  src/util/errhandle.o src/util/tries/trie0.o src/util/tries/trie1.o src/util/tries/trie2.o src/util/tries/trie3.o src/util/tries/trie4.o src/util/tries/triedata_array0.o src/util/tries/triedata_array1.o src/util/tries/triedata_array2.o  src/env/namesvc.o  src/net/host.o src/net/ip_prefix.o src/net/cidr.o src/net/nhi.o src/net/dmlobj.o src/net/net.o src/net/link.o src/net/network_interface.o src/net/nic_queue.o src/net/droptail_queue.o src/net/red_queue.o src/net/mac48_address.o src/net/forwardingtable.o src/net/traffic.o src/net/route_caches/route_cache0.o src/net/route_caches/route_cache1.o src/net/route_caches/route_cache2.o  src/os/base/protocol_graph.o src/os/base/protocol_session.o src/os/base/nic_protocol_session.o src/os/base/lowest_protocol_session.o src/os/base/protocols.o src/os/base/protocol_message.o src/os/base/data_message.o  src/s3fnet.o  src/os/ipv4/ip_session.o src/os/ipv4/ip_message.o  src/os/simple_mac/simple_mac.o src/os/simple_mac/simple_mac_message.o  src/os/simple_phy/simple_phy.o  src/os/dummy/dummy_session.o src/os/dummy/dummy_message.o  src/os/openVZEmu/openVZEmu_event_session.o src/os/openVZEmu/openVZEmu_message.o  src/os/openflow_switch/openflow_switch_session.o src/os/openflow_switch/openflow_controller.o src/os/openflow_switch/openflow_controller_session.o src/os/openflow_switch/openflow_message.o src/os/openflow_switch/openflow_interface.o  src/os/socket/socket_master.o src/os/socket/nb_socket_master.o  src/os/tcp/tcp_message.o src/os/tcp/tcp_master.o src/os/tcp/tcp_blocks.o src/os/tcp/tcp_sndwnd.o src/os/tcp/tcp_rcvwnd.o src/os/tcp/tcp_session.o src/os/tcp/tcp_state.o src/os/tcp/tcp_sender.o src/os/tcp/tcp_receiver.o src/os/tcp/tcp_timer.o src/os/tcp/tcp_sack.o src/os/tcp/tcp_dump.o src/os/tcp/app/tcp_client.o src/os/tcp/app/tcp_server.o src/os/tcp/app/nb_tcp_server.o src/os/tcp/app/nb_tcp_client.o src/os/tcp/app/blocking_tcp_client.o  src/os/udp/udp_message.o src/os/udp/udp_master.o src/os/udp/udp_session.o src/os/udp/app/udp_client.o src/os/udp/app/udp_server.o	 -o s3fnet -L../api -L../aux -L../simctrl -L../rng -L../dml -L../metis -L../openflowlib/build/default ../api/s3f.a ../rng/rng.a ../aux/aux.a ../simctrl/sc.a ../dml/libdml.a ../metis/libmetis.a ../openflowlib/build/default/libopenflow.a -lpthread -lpcap -lfann
+g++ src/extra/getopt.o src/extra/getopt1.o  src/util/errhandle.o src/util/tries/trie0.o src/util/tries/trie1.o src/util/tries/trie2.o src/util/tries/trie3.o src/util/tries/trie4.o src/util/tries/triedata_array0.o src/util/tries/triedata_array1.o src/util/tries/triedata_array2.o  src/env/namesvc.o  src/net/host.o src/net/ip_prefix.o src/net/cidr.o src/net/nhi.o src/net/dmlobj.o src/net/net.o src/net/link.o src/net/network_interface.o src/net/nic_queue.o src/net/droptail_queue.o src/net/red_queue.o src/net/mac48_address.o src/net/forwardingtable.o src/net/traffic.o src/net/route_caches/route_cache0.o src/net/route_caches/route_cache1.o src/net/route_caches/route_cache2.o  src/os/base/protocol_graph.o src/os/base/protocol_session.o src/os/base/nic_protocol_session.o src/os/base/lowest_protocol_session.o src/os/base/protocols.o src/os/base/protocol_message.o src/os/base/data_message.o  src/veslave.o  src/os/ipv4/ip_session.o src/os/ipv4/ip_message.o  src/os/simple_mac/simple_mac.o src/os/simple_mac/simple_mac_message.o  src/os/simple_phy/simple_phy.o  src/os/dummy/dummy_session.o src/os/dummy/dummy_message.o  src/os/openVZEmu/openVZEmu_event_session.o src/os/openVZEmu/openVZEmu_message.o  src/os/openflow_switch/openflow_switch_session.o src/os/openflow_switch/openflow_controller.o src/os/openflow_switch/openflow_controller_session.o src/os/openflow_switch/openflow_message.o src/os/openflow_switch/openflow_interface.o  src/os/socket/socket_master.o src/os/socket/nb_socket_master.o  src/os/tcp/tcp_message.o src/os/tcp/tcp_master.o src/os/tcp/tcp_blocks.o src/os/tcp/tcp_sndwnd.o src/os/tcp/tcp_rcvwnd.o src/os/tcp/tcp_session.o src/os/tcp/tcp_state.o src/os/tcp/tcp_sender.o src/os/tcp/tcp_receiver.o src/os/tcp/tcp_timer.o src/os/tcp/tcp_sack.o src/os/tcp/tcp_dump.o src/os/tcp/app/tcp_client.o src/os/tcp/app/tcp_server.o src/os/tcp/app/nb_tcp_server.o src/os/tcp/app/nb_tcp_client.o src/os/tcp/app/blocking_tcp_client.o  src/os/udp/udp_message.o src/os/udp/udp_master.o src/os/udp/udp_session.o src/os/udp/app/udp_client.o src/os/udp/app/udp_server.o	 -o veslave -L../api -L../aux -L../simctrl -L../rng -L../dml -L../metis -L../openflowlib/build/default ../api/s3f.a ../rng/rng.a ../aux/aux.a ../simctrl/sc.a ../dml/libdml.a ../metis/libmetis.a ../openflowlib/build/default/libopenflow.a -lpthread -lpcap -lfann
+g++ -I../dml  -g -O3 -DPRIME_DML_DEBUG=0 -DPRIME_DML_LOCINFO=1  -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/dmlprep/dmlenv.env.o -c src/dmlprep/dmlenv.cc
+g++ src/dmlprep/dmlenv.env.o src/extra/getopt.o src/extra/getopt1.o -o dmlenv  ../dml/libdml.a
+g++ -I../dml  -I../metis -g -O3 -DPRIME_DML_DEBUG=0 -DPRIME_DML_LOCINFO=1   -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include  -g -O3 -Wno-write-strings  -DOPENVZ_EMULATION  -o src/dmlprep/dmlpart.part.o -c src/dmlprep/dmlpart.cc
+g++ src/dmlprep/dmlpart.part.o  src/extra/getopt.o src/extra/getopt1.o -o dmlpart  ../dml/libdml.a ../metis/libmetis.a

@@ -1,0 +1,203 @@
+total_timeline 1                        # total timeline (i.e. logical process) in the model.
+tick_per_second 6                       # tick is the simulation time unit. E.g., 6 means one second has 10^6 ticks (i.e. the time unit is microsecond). O means the time unit is second.
+run_time 1000                           # simulation run-time in second. Actually it is the run-time of one epoch, and the system run one epoch in default.
+seed 0                                  # seed for random number generator (a non-negative integer number). Simulation results are repeatable for the same seed.
+enable_openvz_emulation false           # whether openvz-based emulation is enabled
+openvz_emulation_type 1                 # 0 - simulator and emulated hosts on same physical machine, 1 - distributed emulation over TCP/IP; work only when enable_openvz_emulation = true
+simulated_openflow_controller_type 1    # type of simulated openflow controller. 0 - non-entity-based controller; 1 - entity-based controller
+simulated_openflow_controller_model 3   # model of simulated openflow controller. E.g., 1 - non-entity-based learning switch, 3 - entity-based learning switch. Refer to enum OPENFLOW_CONTROLLER_MODEL in openflow_interface.h
+
+Net [
+  	traffic [
+    			pattern [
+      				client 0:0
+      				servers [ nhi 1:0(0) port 10 list "forUDP" ]
+    				]
+			pattern [
+				client 2:0
+				servers [ nhi 3:0(0) port 1024 list "forTCP" ]
+			]
+  		]
+
+	Net [ id 0 alignment 0
+    		host [ id 0
+      			graph [
+				ProtocolSession [ name app use "S3F.OS.UDP.test.UDPClient" _extends .dict.udp_client_setup ]
+				ProtocolSession [ name socket use "S3F.OS.Socket.SocketMaster" ]
+				ProtocolSession [ name udp use "S3F.OS.UDP.udpSessionMaster" _find .dict.udpinit ]
+       				ProtocolSession [ name ip use "S3F.OS.IP" ]
+      			]
+      			interface [ id 0 _extends .dict.iface ]
+    		]
+	]
+
+	Net [ id 1 alignment 0
+    		host [ id 0
+      			graph [
+        			ProtocolSession [ name app use "S3F.OS.UDP.test.UDPServer" _extends .dict.udp_server_setup ]
+				ProtocolSession [ name socket use "S3F.OS.Socket.SocketMaster" ]
+        			ProtocolSession [ name udp use "S3F.OS.UDP.udpSessionMaster" _find .dict.udpinit ]
+        			ProtocolSession [ name ip use "S3F.OS.IP" ]
+      			]
+      			interface [ id 0 _extends .dict.iface ]
+    		]
+	]
+
+	Net [ id 2 alignment 0
+    		host [ id 0
+      			graph [
+				ProtocolSession [ name app use "S3F.OS.TCP.test.TCPClient" _extends .dict.tcp_client_setup ]
+				ProtocolSession [ name socket use "S3F.OS.Socket.SocketMaster" ]
+				ProtocolSession [ name tcp use "S3F.OS.TCP.tcpSessionMaster" cwnddump "cwnd" _find .dict.tcpinit ]
+       				ProtocolSession [ name ip use "S3F.OS.IP" ]
+      			]
+      			interface [ id 0 _extends .dict.iface ]
+    		]
+	]
+
+	Net [ id 3 alignment 0
+    		host [ id 0
+      			graph [
+			        ProtocolSession [ name app use "S3F.OS.TCP.test.TCPServer" _extends .dict.tcp_server_setup ]
+				ProtocolSession [ name socket use "S3F.OS.Socket.SocketMaster" ]
+        			ProtocolSession [ name tcp use "S3F.OS.TCP.tcpSessionMaster" _find .dict.tcpinit ]
+        			ProtocolSession [ name ip use "S3F.OS.IP" ]
+      			]
+      			interface [ id 0 _extends .dict.iface ]
+    		]
+	]
+
+	Net [ id 4 alignment 0 #openflow switch
+		ofswitch [ id 0
+			graph [
+				ProtocolSession [ name ofswitch use "S3F.OS.OPENFLOW_SWITCH" controller 6:0 ]
+			]
+			interface [ id 0 _extends .dict.iface ]
+			interface [ id 1 _extends .dict.iface ]
+			interface [ id 2 _extends .dict.iface ]
+			interface [ id 3 of_ctrl_iface true _extends .dict.iface_ctrl ]
+		]
+	]
+
+	Net [ id 5 alignment 0 #openflow switch
+		ofswitch [ id 0
+			graph [
+				ProtocolSession [ name ofswitch use "S3F.OS.OPENFLOW_SWITCH" controller 6:0 ]
+			]
+			interface [ id 0 _extends .dict.iface ]
+			interface [ id 1 _extends .dict.iface ]
+			interface [ id 2 _extends .dict.iface ]
+			interface [ id 3 of_ctrl_iface true _extends .dict.iface_ctrl ]
+		]
+	]
+
+	Net [ id 6 alignment 0 #openflow controller
+		 host [ id 0
+			 graph [
+				 ProtocolSession [ name ofctrl use "S3F.OS.OPENFLOW_CONTROLLER_LEARNING_SWITCH" ]
+			 ]
+			 interface [ id 0 _extends .dict.iface_ctrl ]
+			 interface [ id 1 _extends .dict.iface_ctrl ] 
+		 ]
+	]
+
+	link [ attach 0:0(0) attach 4:0(0) _extends .dict.link-property ]
+	link [ attach 1:0(0) attach 4:0(1) _extends .dict.link-property ]
+	link [ attach 2:0(0) attach 5:0(0) _extends .dict.link-property ] 
+	link [ attach 3:0(0) attach 5:0(1) _extends .dict.link-property ]
+	link [ attach 4:0(2) attach 5:0(2) _extends .dict.link-property ]
+	link [ attach 4:0(3) attach 6:0(0) _extends .dict.link-property-ctrl ]
+	link [ attach 5:0(3) attach 6:0(1) _extends .dict.link-property-ctrl ]
+]
+
+dict [ 
+  iface [ bitrate 1e6 latency 0 buffer 150000 ] 
+       
+  link-property [ prop_delay 1e-3 min_delay 1e-6 ]
+
+  iface_ctrl [ bitrate 1e9 latency 0 buffer 150000000 ] 
+  
+  link-property-ctrl [ prop_delay 0.0 min_delay 1e-06 ]
+
+  udpinit [
+    max_datagram_size 1024
+  ]
+
+  udp_client_setup [
+    start_time 1    			# earliest time to send request to server
+    start_window 0   			# send request to server at a time randomly chosen
+    					# from [start_time,start_time+start_window]
+    file_size 3000 			# requested file size (bytes)
+    off_time 10      			# time to wait between sessions
+    off_time_exponential false		# constant or exponential off time?
+    off_time_run_first  false 		# whether 1st session starts with an off time
+    user_timeout 10      		# timeout before aborting a session
+    fixed_server true			# whether to find a random target, if fixed_server is true, 
+					# the client connects with the same server for the whole simulation; 
+					# the server is chosen from randomly from dml traffic description;
+					# default is false
+    #request_size 4      		# client request datagram size (bytes), 
+					# default is sizeof(uint32) - 4 bytes
+    #server_list forUDP			# name used to filter traffic patterns by selecting servers, 
+					# default "forUDP"
+    #start_port				# the starting port number for client sessions, default is 2048, 
+					# increased by 1 for each subsequent client connection
+    show_report true    		# print client-server session summary report
+  ]
+
+  udp_server_setup [
+    port 10				# port number to receive incoming request
+    #request_size 4			# size of the request from client (must be consistent)
+    datagram_size 1000			# size of each udp datagram sent to client, default is 1000
+    #client_limit			# number of client sessions that can be handled simultaneously, 
+					# 0 means infinite
+    #send_interval			# time between successive sends, default is 0, 900Mb/s
+    #total_num_packets 10000		# total number of packets to send, default is 0
+    #packet_size 1500			# in byte
+    #show_report true    		# print client-server session summary report
+  ]
+
+  tcpinit [
+    ISS 10000               # initial sequence number
+    MSS 960                 # maximum segment size
+    RcvWndSize  128         # receive buffer size
+    SendWndSize 128         # maximum send window size
+    SendBufferSize 128      # send buffer size
+    MaxRexmitTimes 12       # maximum retransmission times before drop
+    #TCP_SLOW_INTERVAL 0.5  # granularity of TCP slow timer
+    TCP_SLOW_INTERVAL 60    # granularity of TCP slow timer
+    TCP_FAST_INTERVAL 0.2   # granularity of TCP fast(delay-ack) timer
+    #MSL 60.0               # maximum segment lifetime
+    MSL 0                   # maximum segment lifetime
+    MaxIdleTime 600.0       # maximum idle time for drop a connection
+    delayed_ack false       # delayed ack option
+    version reno            # tcp version
+    fast_recovery false
+  ]
+
+  tcp_client_setup [
+	start_time 1.0 			# earliest time to send request to server
+	start_window 0 			# send request to server at a time randomly chosen
+					# from [start_time,start_time+start_window]
+	file_size 3000 			# requested file size (bytes)
+	off_time 10.0 			# time to wait between sessions, 0 means request only once
+	off_time_exponential false 	# constant or exponential off time?
+	off_time_run_first false 	# whether 1st session starts with an off time
+	user_timeout 60 		# timeout before aborting a session
+	fixed_server true 		# whether to find a random target, if fixed_server is true, the client connects
+					# with the same server for the whole simulation; the server is chosen from 
+					# randomly from dml traffic description; default is false
+	#request_size 4 		# client request datagram size (bytes), default is sizeof(uint32) - 4 bytes
+	server_list forTCP 		# name used to filter traffic patterns by selecting servers, default "forUDP"
+	#start_port 			# the starting port number for client sessions, default is 2048, 
+					# increased by 1 for each subsequent client connection
+	show_report true 		# print client-server session summary report
+  ]
+
+  tcp_server_setup [
+	port 1024 			# port number to receive incoming request, default is 20
+	#request_size 4 		# size of the request from client (must be consistent)
+	#client_limit 			# number of client sessions that can be handled simultaneously, 0 means infinite
+	#show_report true 		# print client-server session summary report
+  ]
+]
