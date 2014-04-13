@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 # libtoolT - Provide generalized library-building support services.
 # Generated automatically by  (GNU fann 2.1.0)
@@ -47,7 +47,7 @@ available_tags=" CXX F77"
 # Libtool was configured on host ubuntu:
 
 # Shell to use when invoking shell scripts.
-SHELL="/bin/bash"
+SHELL="/bin/sh"
 
 # Whether or not to build shared libraries.
 build_libtool_libs=yes
@@ -325,10 +325,10 @@ variables_saved_for_relink="PATH LD_LIBRARY_PATH LD_RUN_PATH GCC_EXEC_PREFIX COM
 link_all_deplibs=no
 
 # Compile-time system search path for libraries
-sys_lib_search_path_spec=" /usr/lib/gcc/x86_64-linux-gnu/4.7/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.7/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/4.7/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/ /lib/x86_64-linux-gnu/4.7/ /lib/x86_64-linux-gnu/ /lib/../lib/ /usr/lib/x86_64-linux-gnu/4.7/ /usr/lib/x86_64-linux-gnu/ /usr/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../ /lib/ /usr/lib/"
+sys_lib_search_path_spec=" /usr/lib/gcc/x86_64-linux-gnu/4.6/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.6/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/4.6/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib/ /lib/x86_64-linux-gnu/4.6/ /lib/x86_64-linux-gnu/ /lib/../lib/ /usr/lib/x86_64-linux-gnu/4.6/ /usr/lib/x86_64-linux-gnu/ /usr/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../ /lib/ /usr/lib/"
 
 # Run-time system search path for libraries
-sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/local/lib /usr/lib/vmware-tools/lib32/libvmGuestLib.so /usr/lib/vmware-tools/lib64/libvmGuestLib.so /usr/lib/vmware-tools/lib32/libvmGuestLibJava.so /usr/lib/vmware-tools/lib64/libvmGuestLibJava.so /usr/lib/vmware-tools/lib32/libDeployPkg.so /usr/lib/vmware-tools/lib64/libDeployPkg.so /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/mesa-egl /usr/lib/x86_64-linux-gnu/mesa "
+sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/local/lib /usr/lib/vmware-tools/lib32/libvmGuestLib.so /usr/lib/vmware-tools/lib64/libvmGuestLib.so /usr/lib/vmware-tools/lib32/libvmGuestLibJava.so /usr/lib/vmware-tools/lib64/libvmGuestLibJava.so /usr/lib/vmware-tools/lib32/libDeployPkg.so /usr/lib/vmware-tools/lib64/libDeployPkg.so /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/mesa "
 
 # Fix the shell variable $srcfile for the compiler.
 fix_srcfile_path=""
@@ -7226,7 +7226,7 @@ disable_libs=static
 # Libtool was configured on host ubuntu:
 
 # Shell to use when invoking shell scripts.
-SHELL="/bin/bash"
+SHELL="/bin/sh"
 
 # Whether or not to build shared libraries.
 build_libtool_libs=yes
@@ -7405,11 +7405,11 @@ striplib="strip --strip-unneeded"
 
 # Dependencies to place before the objects being linked to create a
 # shared library.
-predep_objects="/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbeginS.o"
+predep_objects="/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbeginS.o"
 
 # Dependencies to place after the objects being linked to create a
 # shared library.
-postdep_objects="/usr/lib/gcc/x86_64-linux-gnu/4.7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o"
+postdep_objects="/usr/lib/gcc/x86_64-linux-gnu/4.6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o"
 
 # Dependencies to place before the objects being linked to create a
 # shared library.
@@ -7421,7 +7421,7 @@ postdeps="-lstdc++ -lm -lgcc_s -lc -lgcc_s"
 
 # The library search path used internally by the compiler when linking
 # a shared library.
-compiler_lib_search_path="-L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.."
+compiler_lib_search_path="-L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.."
 
 # Method to check whether dependent libraries are shared objects.
 deplibs_check_method="pass_all"
@@ -7501,10 +7501,10 @@ variables_saved_for_relink="PATH LD_LIBRARY_PATH LD_RUN_PATH GCC_EXEC_PREFIX COM
 link_all_deplibs=no
 
 # Compile-time system search path for libraries
-sys_lib_search_path_spec=" /usr/lib/gcc/x86_64-linux-gnu/4.7/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.7/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/4.7/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/ /lib/x86_64-linux-gnu/4.7/ /lib/x86_64-linux-gnu/ /lib/../lib/ /usr/lib/x86_64-linux-gnu/4.7/ /usr/lib/x86_64-linux-gnu/ /usr/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../ /lib/ /usr/lib/"
+sys_lib_search_path_spec=" /usr/lib/gcc/x86_64-linux-gnu/4.6/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.6/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/4.6/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib/ /lib/x86_64-linux-gnu/4.6/ /lib/x86_64-linux-gnu/ /lib/../lib/ /usr/lib/x86_64-linux-gnu/4.6/ /usr/lib/x86_64-linux-gnu/ /usr/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../ /lib/ /usr/lib/"
 
 # Run-time system search path for libraries
-sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/local/lib /usr/lib/vmware-tools/lib32/libvmGuestLib.so /usr/lib/vmware-tools/lib64/libvmGuestLib.so /usr/lib/vmware-tools/lib32/libvmGuestLibJava.so /usr/lib/vmware-tools/lib64/libvmGuestLibJava.so /usr/lib/vmware-tools/lib32/libDeployPkg.so /usr/lib/vmware-tools/lib64/libDeployPkg.so /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/mesa-egl /usr/lib/x86_64-linux-gnu/mesa "
+sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/local/lib /usr/lib/vmware-tools/lib32/libvmGuestLib.so /usr/lib/vmware-tools/lib64/libvmGuestLib.so /usr/lib/vmware-tools/lib32/libvmGuestLibJava.so /usr/lib/vmware-tools/lib64/libvmGuestLibJava.so /usr/lib/vmware-tools/lib32/libDeployPkg.so /usr/lib/vmware-tools/lib64/libDeployPkg.so /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/mesa "
 
 # Fix the shell variable $srcfile for the compiler.
 fix_srcfile_path=""
@@ -7531,7 +7531,7 @@ include_expsyms=""
 # Libtool was configured on host ubuntu:
 
 # Shell to use when invoking shell scripts.
-SHELL="/bin/bash"
+SHELL="/bin/sh"
 
 # Whether or not to build shared libraries.
 build_libtool_libs=yes
@@ -7809,10 +7809,10 @@ variables_saved_for_relink="PATH LD_LIBRARY_PATH LD_RUN_PATH GCC_EXEC_PREFIX COM
 link_all_deplibs=no
 
 # Compile-time system search path for libraries
-sys_lib_search_path_spec=" /usr/lib/gcc/x86_64-linux-gnu/4.7/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.7/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/4.7/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/ /lib/x86_64-linux-gnu/4.7/ /lib/x86_64-linux-gnu/ /lib/../lib/ /usr/lib/x86_64-linux-gnu/4.7/ /usr/lib/x86_64-linux-gnu/ /usr/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../x86_64-linux-gnu/lib/ /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../ /lib/ /usr/lib/"
+sys_lib_search_path_spec=" /usr/lib/gcc/x86_64-linux-gnu/4.6/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.6/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/4.6/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib/ /lib/x86_64-linux-gnu/4.6/ /lib/x86_64-linux-gnu/ /lib/../lib/ /usr/lib/x86_64-linux-gnu/4.6/ /usr/lib/x86_64-linux-gnu/ /usr/lib/../lib/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../x86_64-linux-gnu/lib/ /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../ /lib/ /usr/lib/"
 
 # Run-time system search path for libraries
-sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/local/lib /usr/lib/vmware-tools/lib32/libvmGuestLib.so /usr/lib/vmware-tools/lib64/libvmGuestLib.so /usr/lib/vmware-tools/lib32/libvmGuestLibJava.so /usr/lib/vmware-tools/lib64/libvmGuestLibJava.so /usr/lib/vmware-tools/lib32/libDeployPkg.so /usr/lib/vmware-tools/lib64/libDeployPkg.so /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/mesa-egl /usr/lib/x86_64-linux-gnu/mesa "
+sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/local/lib /usr/lib/vmware-tools/lib32/libvmGuestLib.so /usr/lib/vmware-tools/lib64/libvmGuestLib.so /usr/lib/vmware-tools/lib32/libvmGuestLibJava.so /usr/lib/vmware-tools/lib64/libvmGuestLibJava.so /usr/lib/vmware-tools/lib32/libDeployPkg.so /usr/lib/vmware-tools/lib64/libDeployPkg.so /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/mesa "
 
 # Fix the shell variable $srcfile for the compiler.
 fix_srcfile_path=""

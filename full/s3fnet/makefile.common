@@ -4,7 +4,7 @@
 #
 
 #The default configure parameters, if not being passed in through make command-line
-ENABLE_S3FNET_DEBUG = no
+ENABLE_S3FNET_DEBUG = yes
 ENABLE_OPENVZ_EMULATION = yes
 ENABLE_OPENVZ_EMULATION_LOOKAHEAD = no
 
@@ -485,7 +485,7 @@ else
 S3FNET_EMU_LA_CFG =
 endif
 
-ifeq ($(ENABLE_S3FNET_DEBUG), yes)
+# ifeq ($(ENABLE_S3FNET_DEBUG), yes)
 S3FNET_DBGCFG = \
 	-DIP_DEBUG \
 	-DDUMMY_DEBUG \
@@ -509,9 +509,9 @@ S3FNET_DBGCFG = \
 	-DTRAFFIC_DEBUG \
 	-DIPADDR_DEBUG \
 	-DMAIN_DEBUG
-else
-S3FNET_DBGCFG =
-endif
+# else
+# S3FNET_DBGCFG =
+# endif
 
 # Directories for finding the header files
 S3FNET_INCLUDES = $(S3F_INCLUDES) -Isrc -I../ -I../dml -I../metis -I../openvzemu_include -I../openflowlib/include
