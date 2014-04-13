@@ -1,5 +1,5 @@
-#ifndef _XT_CONNMARK_H_target
-#define _XT_CONNMARK_H_target
+#ifndef _XT_CONNMARK_H
+#define _XT_CONNMARK_H
 
 #include <net/compat.h>
 
@@ -12,23 +12,15 @@
  * (at your option) any later version.
  */
 
-enum {
-	XT_CONNMARK_SET = 0,
-	XT_CONNMARK_SAVE,
-	XT_CONNMARK_RESTORE
-};
-
-struct xt_connmark_target_info {
-	unsigned long mark;
-	unsigned long mask;
-	u_int8_t mode;
+struct xt_connmark_info {
+	unsigned long mark, mask;
+	u_int8_t invert;
 };
 
 #ifdef CONFIG_COMPAT
-struct compat_xt_connmark_target_info {
-	compat_ulong_t mark;
-	compat_ulong_t mask;
-	u_int8_t mode;
+struct compat_xt_connmark_info {
+	compat_ulong_t mark, mask;
+	u_int8_t invert;
 };
 #endif /*CONFIG_COMPAT*/
-#endif /*_XT_CONNMARK_H_target*/
+#endif /*_XT_CONNMARK_H*/

@@ -70,21 +70,22 @@ void DummySession::config(s3f::dml::Configuration* cfg)
 	  str = (char*)cfg->findSingle("hello_peer_nhi");
 	  if(str)
 	  {
-		if(s3f::dml::dmlConfig::isConf(str))
-		  error_quit("ERROR: DummySession::config(), invalid HELLO_PEER_NHI attribute.");
-		else hello_peer_nhi = str;
+  		if(s3f::dml::dmlConfig::isConf(str))
+  		  error_quit("ERROR: DummySession::config(), invalid HELLO_PEER_NHI attribute.");
+  		else hello_peer_nhi = str;
 	  }
 	  str = (char*)cfg->findSingle("hello_peer_ip");
 	  if(str)
 	  {
-		if(s3f::dml::dmlConfig::isConf(str))
-		  error_quit("ERROR: DummySession::config(), invalid HELLO_PEER_IP attribute.");
-		else hello_peer_ip = str;
+  		if(s3f::dml::dmlConfig::isConf(str))
+  		  error_quit("ERROR: DummySession::config(), invalid HELLO_PEER_IP attribute.");
+  		else 
+        hello_peer_ip = str;
 	  }
 	  if(!hello_peer_nhi.empty() && !hello_peer_ip.empty())
-		error_quit("ERROR: DummySession::config(), HELLO_PEER_NHI and HELLO_PEER_IP both defined.");
+		  error_quit("ERROR: DummySession::config(), HELLO_PEER_NHI and HELLO_PEER_IP both defined.");
 	  else if(hello_peer_nhi.empty() && hello_peer_ip.empty())
-		error_quit("ERROR: DummySession::config(), missing HELLO_PEER_NHI and HELLO_PEER_IP attribute.");
+		  error_quit("ERROR: DummySession::config(), missing HELLO_PEER_NHI and HELLO_PEER_IP attribute.");
 
 	  DUMMY_DUMP(printf("A dummy session is configured in host of NHI=\"%s\":\n", inHost()->nhi.toString()););
 	  DUMMY_DUMP(printf("=> hello message: \"%s\".\n", hello_message.c_str()););
@@ -102,7 +103,8 @@ void DummySession::config(s3f::dml::Configuration* cfg)
 	  if(!str) jitter_double = 0;
 	  else if(s3f::dml::dmlConfig::isConf(str))
 	    error_quit("ERROR: DummySession::config(), invalid jitter attribute.");
-	  else jitter_double = atof(str);
+	  else 
+      jitter_double = atof(str);
 	  if(jitter_double < 0)
 	    error_quit("ERROR: DummySession::config(), jitter needs to be non-negative.");
 	  jitter = inHost()->d2t(jitter_double, 0);
@@ -124,11 +126,12 @@ void DummySession::init()
   // but now we can, since name service finally becomes functional
   if(!hello_peer_nhi.empty())
   {
-	Host* owner_host = inHost();
-	Net* owner_net = owner_host->inNet();
-	hello_peer = owner_net->getNameService()->nhi2ip(hello_peer_nhi);
+  	Host* owner_host = inHost();
+  	Net* owner_net = owner_host->inNet();
+  	hello_peer = owner_net->getNameService()->nhi2ip(hello_peer_nhi);
   }
-  else hello_peer = IPPrefix::txt2ip(hello_peer_ip.c_str());
+  else 
+    hello_peer = IPPrefix::txt2ip(hello_peer_ip.c_str());
 
   // similarly we couldn't resolve the IP layer until now
   ip_session = (IPSession*)inHost()->getNetworkLayerProtocol();
