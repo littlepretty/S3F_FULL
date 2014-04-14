@@ -692,8 +692,8 @@ RECURSIVE              = YES
 
 EXCLUDE                = ../../s3fnet/src/dmlprep \
                          ../../s3fnet/src/extra \
-			 ../../simctrl/scripts \
-			 ../../simctrl/fann-2.1.0
+						 ../../simctrl/scripts \
+			 			 ../../simctrl/fann-2.1.0
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or 
 # directories that are symbolic links (a Unix file system feature) are excluded 
