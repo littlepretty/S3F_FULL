@@ -44,7 +44,7 @@ class RandomDummyMessage : public ProtocolMessage {
   /** The unique protocol type of the dummy protocol.
    *  Each protocol message must have a unique type.
    */
-  virtual int type() { return S3FNET_PROTOCOL_TYPE_DUMMY; }
+  virtual int type() { return S3FNET_PROTOCOL_TYPE_RANDOM_DUMMY; }
 
   /** Return the buffer size needed to serialize this protocol message (not used yet) */
   virtual int packingSize();

@@ -15,12 +15,12 @@
 #include "net/net.h"
 #include "env/namesvc.h"
 
-#include "../../rng/rng.h"
+#include "s3fnet.h"
 
 #ifdef RANDOM_DUMMY_DEBUG
-#define RANDOM_RANDOM_DUMMY_DUMP(x) printf("RANDOM_DUMMY: "); x
+#define RANDOM_DUMMY_DUMP(x) printf("RANDOM_DUMMY: "); x
 #else
-#define RANDOM_RANDOM_DUMMY_DUMP(x)
+#define RANDOM_DUMMY_DUMP(x)
 #endif
 
 namespace s3f {
@@ -180,8 +180,11 @@ void RandomDummySession::callback_body(Activation ac)
   ipopt.prot_id = S3FNET_PROTOCOL_TYPE_RANDOM_DUMMY;
   ipopt.ttl = DEFAULT_IP_TIMETOLIVE;
 
-  RANDOM_DUMMY_DUMP(char s[32]; printf("[%s] Random dummy session sends hello: \"%s\" to %s \n",
-		  getNowWithThousandSeparator(), hello_message.c_str(),
+  RANDOM_DUMMY_DUMP(
+    char s[32]; 
+    printf("[%s] Random dummy session sends hello: \"%s\" to %s \n",
+		  getNowWithThousandSeparator(), 
+      hello_message.c_str(),
 		  IPPrefix::ip2txt(hello_peer, s)));
 
   ip_session->pushdown(dmsg_ac, this, (void*)&ipopt, sizeof(IPPushOption));
@@ -218,6 +221,7 @@ int RandomDummySession::pop(Activation msg, ProtocolSession* lo_sess, void* exti
   ProtocolMessage* message = (ProtocolMessage*)msg;
   if(message->type() != S3FNET_PROTOCOL_TYPE_RANDOM_DUMMY)
   {
+    RANDOM_DUMMY_DUMP(printf("message popup to random_dummy_session is %d\n", message->type());)
 	  error_quit("ERROR: the message popup to random dummy session is not S3FNET_PROTOCOL_TYPE_RANDOM_DUMMY.\n");
   }
 
@@ -225,8 +229,8 @@ int RandomDummySession::pop(Activation msg, ProtocolSession* lo_sess, void* exti
   RandomDummyMessage* dmsg = (RandomDummyMessage*)msg;
   IPOptionToAbove* ipopt = (IPOptionToAbove*)extinfo;
 
-  RNG rng;
-  long will_drop = rng.Bernoulli_idf();
+  Random::RNG* rng = new Random::RNG();
+  long will_drop = rng->Bernoulli_idf(0.5, rng->Random());
   RANDOM_DUMMY_DUMP(printf("RNG generate Bernoulli Number %d\n", will_drop);)
 
   if (will_drop == 0)
@@ -248,6 +252,7 @@ int RandomDummySession::pop(Activation msg, ProtocolSession* lo_sess, void* exti
   }
 
   dmsg->erase_all();
+  delete rng;
 
   // returning 0 indicates success
   return 0;

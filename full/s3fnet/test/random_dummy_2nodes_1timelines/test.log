@@ -1,0 +1,516 @@
+../../s3fnet *.dml
+MAIN: parsing dml files.
+Input DML files:
+  test-env.dml
+  test-rt.dml
+  test.dml
+MAIN: total_timeline = 1, tick_per_second= 6, run_time = 100000000, seed = 0, enable_openvz_emulation = 0, openvz_emulation_type = 0, simulated_openflow_controller_type = 0,simulated_openflow_controller_model = 0 
+MAIN: creating the top net.
+NET: new topnet.
+MAIN: configuring the top net.
+NET: config().
+NET: config_top_net().
+NAMESVC: new global name service
+NAMESVC: config().
+NAMESVC: config_topnet_cidr().
+NAMESVC: config_topnet_cidr(): subnet 0.
+NAMESVC: config_net_cidr().
+NAMESVC: config_net_cidr(): 10.10.0.0/30.
+NAMESVC: config_topnet_cidr(): subnet 1.
+NAMESVC: config_net_cidr().
+NAMESVC: config_net_cidr(): 10.10.0.4/30.
+NAMESVC: config host: anonymous nhi "0:0(0)".
+NAMESVC: config_host(): host nhi "0:0" <=> alignment "0".
+NAMESVC: config host: anonymous nhi "1:0(0)".
+NAMESVC: config_host(): host nhi "1:0" <=> alignment "0".
+NAMESVC: config_nhi_addr(): nhi "0:0(0)" <=> ip "10.10.0.9".
+NAMESVC: config_nhi_addr(): nhi "0:0" <=> ip "10.10.0.9".
+NAMESVC: config_nhi_addr(): nhi "1:0(0)" <=> ip "10.10.0.10".
+NAMESVC: config_nhi_addr(): nhi "1:0" <=> ip "10.10.0.10".
+NET: config(): nhi="", alignment="0"
+NET: net "" config sub networks.
+NET: new subnet: id=0.
+NET: config().
+NET: config(): nhi="0", alignment="0"
+NET: net "0" config sub networks.
+NET: net "0" config hosts.
+NET: config_host(), created host 0 on timeline 0
+HOST: [id=0] new host.
+HOST: [nhi="0:0"] config().
+HOST: nhi="0:0", veid=-1.
+HOST: [nhi="0:0"] register host.
+HOST: [nhi="0:0"] host_seed=0.
+RANDOM_DUMMY: A random dummy protocol session is created.
+RANDOM_DUMMY: A random dummy session is configured in host of NHI="0:0":
+RANDOM_DUMMY: => hello message: "hello from host 0:0".
+RANDOM_DUMMY: => hello peer: nhi="1:0(0)".
+RANDOM_DUMMY: jitter = 0
+RANDOM_DUMMY: => hello interval: 10000000.
+IP: [host="0:0"] new ip session.
+IP: [host="0:0"] config().
+HOST: [nhi="0:0"] new interface 0.
+NW_IFACE: [id=0] new network interface.
+NET: register_interface(): ip="10.10.0.9".
+NW_IFACE: NIC = 0:0(0), IP = 10.10.0.9, MAC = 00:00:00:00:00:01, IsOpenVZEmu = 0, iface_id = 0
+SMAC: [nic="0:0(0)"] new simple_mac session.
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] config(): mac session "S3F.OS.SimpleMac".
+SPHY: [nic="0:0(0)"] new simple_phy session.
+SPHY: [nic="0:0(0)"] config().
+SPHY: [nic="0:0(0)"] config(): bitrate=1000000.000000, latency=0, jitter_range=0.000000, buffer(size)=150000.
+SPHY: [nic="0:0(0)"] config(): queue is "droptail".
+SPHY: [nic="0:0(0)"] control(): type=1.
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] config(): phy session "S3F.OS.SimplePhy".
+SPHY: [nic="0:0(0)"] control(): type=3.
+NET: net "0" config links.
+NET: new subnet: id=1.
+NET: config().
+NET: config(): nhi="1", alignment="0"
+NET: net "1" config sub networks.
+NET: net "1" config hosts.
+NET: config_host(), created host 0 on timeline 0
+HOST: [id=0] new host.
+HOST: [nhi="1:0"] config().
+HOST: nhi="1:0", veid=-1.
+HOST: [nhi="1:0"] register host.
+HOST: [nhi="1:0"] host_seed=0.
+RANDOM_DUMMY: A random dummy protocol session is created.
+RANDOM_DUMMY: A random dummy session is configured in host of NHI="1:0":
+RANDOM_DUMMY: => hello message: "hello from host 1:0".
+RANDOM_DUMMY: => hello peer: nhi="0:0(0)".
+RANDOM_DUMMY: jitter = 0
+RANDOM_DUMMY: => hello interval: 10000000.
+IP: [host="1:0"] new ip session.
+IP: [host="1:0"] config().
+HOST: [nhi="1:0"] new interface 0.
+NW_IFACE: [id=0] new network interface.
+NET: register_interface(): ip="10.10.0.10".
+NW_IFACE: NIC = 1:0(0), IP = 10.10.0.10, MAC = 00:00:00:00:00:02, IsOpenVZEmu = 0, iface_id = 0
+SMAC: [nic="1:0(0)"] new simple_mac session.
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] config(): mac session "S3F.OS.SimpleMac".
+SPHY: [nic="1:0(0)"] new simple_phy session.
+SPHY: [nic="1:0(0)"] config().
+SPHY: [nic="1:0(0)"] config(): bitrate=1000000.000000, latency=0, jitter_range=0.000000, buffer(size)=150000.
+SPHY: [nic="1:0(0)"] config(): queue is "droptail".
+SPHY: [nic="1:0(0)"] control(): type=1.
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] config(): phy session "S3F.OS.SimplePhy".
+SPHY: [nic="1:0(0)"] control(): type=3.
+NET: net "1" config links.
+NET: net "" config hosts.
+NET: net "" config links.
+NET: config_link().
+LINK: new link.
+LINK: config().
+LINK: config(): min_delay= 0.000200, prop_delay = 0.001000, mapping_delay = 0.001200.
+LINK: config(): attach
+LINK: 	 0:0(0) 
+LINK: 	 1:0(0) 
+NET: finish_config_top_net().
+NET: net "" connect links.
+NET: net "0" connect links.
+NET: net "1" connect links.
+LINK: connect().
+SPHY: [nic="0:0(0)"] control(): type=23.
+SPHY: [nic="1:0(0)"] control(): type=23.
+HOST: [nhi="0:0"] load forwarding table.
+IP: [host="0:0"] control(): type=43.
+IP: [host="0:0"] control(): type=46.
+HOST: [nhi="1:0"] load forwarding table.
+IP: [host="1:0"] control(): type=43.
+IP: [host="1:0"] control(): type=46.
+HOST: [nhi="0:0"] init().
+IP: [host="0:0"] init().
+RANDOM_DUMMY: Random dummy session is initialized.
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] init().
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] init().
+SPHY: [nic="0:0(0)"] control(): type=21.
+SPHY: [nic="0:0(0)"] control(): type=22.
+SPHY: [nic="0:0(0)"] control(): type=23.
+SPHY: [nic="0:0(0)"] control(): type=24.
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] init().
+HOST: [nhi="1:0"] init().
+IP: [host="1:0"] init().
+RANDOM_DUMMY: Random dummy session is initialized.
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] init().
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] init().
+SPHY: [nic="1:0(0)"] control(): type=21.
+SPHY: [nic="1:0(0)"] control(): type=22.
+SPHY: [nic="1:0(0)"] control(): type=23.
+SPHY: [nic="1:0(0)"] control(): type=24.
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] init().
+MAIN: initializing the top net.
+NET: net "" init.
+NET: net "0" init.
+NET: net "1" init.
+LINK: init().
+enter epoch window 1
+RANDOM_DUMMY: [10,000,000] Random dummy session sends hello: "hello from host 0:0" to 10.10.0.10 
+IP: [host="0:0"] 10,000,000: send packet from "10.10.0.9" to "10.10.0.10" (39 real bytes).
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 10,000,000: push().
+SMAC: push() [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 10,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 10,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 10,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 0
+RANDOM_DUMMY: [10,000,000] Random dummy session sends hello: "hello from host 1:0" to 10.10.0.9 
+IP: [host="1:0"] 10,000,000: send packet from "10.10.0.10" to "10.10.0.9" (39 real bytes).
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 10,000,000: push().
+SMAC: push() [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 10,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 10,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 10,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 1000000
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 10,001,313: receive a packet.
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 10,001,313: receivePacket().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 10,001,313: pop().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+IP: [host="1:0"] 10,001,313: pop() receive packet from "10.10.0.9" to "10.10.0.10".
+IP: [host="1:0"] 10,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 1
+RANDOM_DUMMY: [10,001,313] Random ummy session drops hello: "hello from host 0:0" (ip_src=10.10.0.9, ip_dest=10.10.0.10)
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 10,001,313: receive a packet.
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 10,001,313: receivePacket().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 10,001,313: pop().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+IP: [host="0:0"] 10,001,313: pop() receive packet from "10.10.0.10" to "10.10.0.9".
+IP: [host="0:0"] 10,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 0
+RANDOM_DUMMY: [10,001,313] Random ummy session receives hello: "hello from host 1:0" (ip_src=10.10.0.10, ip_dest=10.10.0.9)
+RANDOM_DUMMY: [20,000,000] Random dummy session sends hello: "hello from host 0:0" to 10.10.0.10 
+IP: [host="0:0"] 20,000,000: send packet from "10.10.0.9" to "10.10.0.10" (39 real bytes).
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 20,000,000: push().
+SMAC: push() [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 20,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 20,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 20,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 0
+RANDOM_DUMMY: [20,000,000] Random dummy session sends hello: "hello from host 1:0" to 10.10.0.9 
+IP: [host="1:0"] 20,000,000: send packet from "10.10.0.10" to "10.10.0.9" (39 real bytes).
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 20,000,000: push().
+SMAC: push() [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 20,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 20,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 20,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 1000000
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 20,001,313: receive a packet.
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 20,001,313: receivePacket().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 20,001,313: pop().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+IP: [host="1:0"] 20,001,313: pop() receive packet from "10.10.0.9" to "10.10.0.10".
+IP: [host="1:0"] 20,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 1
+RANDOM_DUMMY: [20,001,313] Random ummy session drops hello: "hello from host 0:0" (ip_src=10.10.0.9, ip_dest=10.10.0.10)
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 20,001,313: receive a packet.
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 20,001,313: receivePacket().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 20,001,313: pop().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+IP: [host="0:0"] 20,001,313: pop() receive packet from "10.10.0.10" to "10.10.0.9".
+IP: [host="0:0"] 20,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 0
+RANDOM_DUMMY: [20,001,313] Random ummy session receives hello: "hello from host 1:0" (ip_src=10.10.0.10, ip_dest=10.10.0.9)
+RANDOM_DUMMY: [30,000,000] Random dummy session sends hello: "hello from host 0:0" to 10.10.0.10 
+IP: [host="0:0"] 30,000,000: send packet from "10.10.0.9" to "10.10.0.10" (39 real bytes).
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 30,000,000: push().
+SMAC: push() [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 30,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 30,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 30,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 0
+RANDOM_DUMMY: [30,000,000] Random dummy session sends hello: "hello from host 1:0" to 10.10.0.9 
+IP: [host="1:0"] 30,000,000: send packet from "10.10.0.10" to "10.10.0.9" (39 real bytes).
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 30,000,000: push().
+SMAC: push() [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 30,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 30,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 30,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 1000000
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 30,001,313: receive a packet.
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 30,001,313: receivePacket().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 30,001,313: pop().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+IP: [host="1:0"] 30,001,313: pop() receive packet from "10.10.0.9" to "10.10.0.10".
+IP: [host="1:0"] 30,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 1
+RANDOM_DUMMY: [30,001,313] Random ummy session drops hello: "hello from host 0:0" (ip_src=10.10.0.9, ip_dest=10.10.0.10)
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 30,001,313: receive a packet.
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 30,001,313: receivePacket().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 30,001,313: pop().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+IP: [host="0:0"] 30,001,313: pop() receive packet from "10.10.0.10" to "10.10.0.9".
+IP: [host="0:0"] 30,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 1
+RANDOM_DUMMY: [30,001,313] Random ummy session drops hello: "hello from host 1:0" (ip_src=10.10.0.10, ip_dest=10.10.0.9)
+RANDOM_DUMMY: [40,000,000] Random dummy session sends hello: "hello from host 0:0" to 10.10.0.10 
+IP: [host="0:0"] 40,000,000: send packet from "10.10.0.9" to "10.10.0.10" (39 real bytes).
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 40,000,000: push().
+SMAC: push() [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 40,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 40,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 40,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 0
+RANDOM_DUMMY: [40,000,000] Random dummy session sends hello: "hello from host 1:0" to 10.10.0.9 
+IP: [host="1:0"] 40,000,000: send packet from "10.10.0.10" to "10.10.0.9" (39 real bytes).
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 40,000,000: push().
+SMAC: push() [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 40,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 40,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 40,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 1000000
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 40,001,313: receive a packet.
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 40,001,313: receivePacket().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 40,001,313: pop().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+IP: [host="1:0"] 40,001,313: pop() receive packet from "10.10.0.9" to "10.10.0.10".
+IP: [host="1:0"] 40,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 0
+RANDOM_DUMMY: [40,001,313] Random ummy session receives hello: "hello from host 0:0" (ip_src=10.10.0.9, ip_dest=10.10.0.10)
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 40,001,313: receive a packet.
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 40,001,313: receivePacket().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 40,001,313: pop().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+IP: [host="0:0"] 40,001,313: pop() receive packet from "10.10.0.10" to "10.10.0.9".
+IP: [host="0:0"] 40,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 0
+RANDOM_DUMMY: [40,001,313] Random ummy session receives hello: "hello from host 1:0" (ip_src=10.10.0.10, ip_dest=10.10.0.9)
+RANDOM_DUMMY: [50,000,000] Random dummy session sends hello: "hello from host 0:0" to 10.10.0.10 
+IP: [host="0:0"] 50,000,000: send packet from "10.10.0.9" to "10.10.0.10" (39 real bytes).
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 50,000,000: push().
+SMAC: push() [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 50,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 50,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 50,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 0
+RANDOM_DUMMY: [50,000,000] Random dummy session sends hello: "hello from host 1:0" to 10.10.0.9 
+IP: [host="1:0"] 50,000,000: send packet from "10.10.0.10" to "10.10.0.9" (39 real bytes).
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 50,000,000: push().
+SMAC: push() [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 50,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 50,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 50,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 1000000
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 50,001,313: receive a packet.
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 50,001,313: receivePacket().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 50,001,313: pop().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+IP: [host="1:0"] 50,001,313: pop() receive packet from "10.10.0.9" to "10.10.0.10".
+IP: [host="1:0"] 50,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 1
+RANDOM_DUMMY: [50,001,313] Random ummy session drops hello: "hello from host 0:0" (ip_src=10.10.0.9, ip_dest=10.10.0.10)
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 50,001,313: receive a packet.
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 50,001,313: receivePacket().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 50,001,313: pop().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+IP: [host="0:0"] 50,001,313: pop() receive packet from "10.10.0.10" to "10.10.0.9".
+IP: [host="0:0"] 50,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 0
+RANDOM_DUMMY: [50,001,313] Random ummy session receives hello: "hello from host 1:0" (ip_src=10.10.0.10, ip_dest=10.10.0.9)
+RANDOM_DUMMY: [60,000,000] Random dummy session sends hello: "hello from host 0:0" to 10.10.0.10 
+IP: [host="0:0"] 60,000,000: send packet from "10.10.0.9" to "10.10.0.10" (39 real bytes).
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 60,000,000: push().
+SMAC: push() [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 60,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 60,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 60,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 0
+RANDOM_DUMMY: [60,000,000] Random dummy session sends hello: "hello from host 1:0" to 10.10.0.9 
+IP: [host="1:0"] 60,000,000: send packet from "10.10.0.10" to "10.10.0.9" (39 real bytes).
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 60,000,000: push().
+SMAC: push() [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 60,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 60,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 60,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 1000000
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 60,001,313: receive a packet.
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 60,001,313: receivePacket().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 60,001,313: pop().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+IP: [host="1:0"] 60,001,313: pop() receive packet from "10.10.0.9" to "10.10.0.10".
+IP: [host="1:0"] 60,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 1
+RANDOM_DUMMY: [60,001,313] Random ummy session drops hello: "hello from host 0:0" (ip_src=10.10.0.9, ip_dest=10.10.0.10)
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 60,001,313: receive a packet.
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 60,001,313: receivePacket().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 60,001,313: pop().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+IP: [host="0:0"] 60,001,313: pop() receive packet from "10.10.0.10" to "10.10.0.9".
+IP: [host="0:0"] 60,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 0
+RANDOM_DUMMY: [60,001,313] Random ummy session receives hello: "hello from host 1:0" (ip_src=10.10.0.10, ip_dest=10.10.0.9)
+RANDOM_DUMMY: [70,000,000] Random dummy session sends hello: "hello from host 0:0" to 10.10.0.10 
+IP: [host="0:0"] 70,000,000: send packet from "10.10.0.9" to "10.10.0.10" (39 real bytes).
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 70,000,000: push().
+SMAC: push() [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 70,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 70,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 70,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 0
+RANDOM_DUMMY: [70,000,000] Random dummy session sends hello: "hello from host 1:0" to 10.10.0.9 
+IP: [host="1:0"] 70,000,000: send packet from "10.10.0.10" to "10.10.0.9" (39 real bytes).
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 70,000,000: push().
+SMAC: push() [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 70,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 70,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 70,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 1000000
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 70,001,313: receive a packet.
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 70,001,313: receivePacket().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 70,001,313: pop().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+IP: [host="1:0"] 70,001,313: pop() receive packet from "10.10.0.9" to "10.10.0.10".
+IP: [host="1:0"] 70,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 0
+RANDOM_DUMMY: [70,001,313] Random ummy session receives hello: "hello from host 0:0" (ip_src=10.10.0.9, ip_dest=10.10.0.10)
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 70,001,313: receive a packet.
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 70,001,313: receivePacket().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 70,001,313: pop().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+IP: [host="0:0"] 70,001,313: pop() receive packet from "10.10.0.10" to "10.10.0.9".
+IP: [host="0:0"] 70,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 1
+RANDOM_DUMMY: [70,001,313] Random ummy session drops hello: "hello from host 1:0" (ip_src=10.10.0.10, ip_dest=10.10.0.9)
+RANDOM_DUMMY: [80,000,000] Random dummy session sends hello: "hello from host 0:0" to 10.10.0.10 
+IP: [host="0:0"] 80,000,000: send packet from "10.10.0.9" to "10.10.0.10" (39 real bytes).
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 80,000,000: push().
+SMAC: push() [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 80,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 80,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 80,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 0
+RANDOM_DUMMY: [80,000,000] Random dummy session sends hello: "hello from host 1:0" to 10.10.0.9 
+IP: [host="1:0"] 80,000,000: send packet from "10.10.0.10" to "10.10.0.9" (39 real bytes).
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 80,000,000: push().
+SMAC: push() [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 80,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 80,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 80,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 1000000
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 80,001,313: receive a packet.
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 80,001,313: receivePacket().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 80,001,313: pop().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+IP: [host="1:0"] 80,001,313: pop() receive packet from "10.10.0.9" to "10.10.0.10".
+IP: [host="1:0"] 80,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 0
+RANDOM_DUMMY: [80,001,313] Random ummy session receives hello: "hello from host 0:0" (ip_src=10.10.0.9, ip_dest=10.10.0.10)
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 80,001,313: receive a packet.
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 80,001,313: receivePacket().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 80,001,313: pop().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+IP: [host="0:0"] 80,001,313: pop() receive packet from "10.10.0.10" to "10.10.0.9".
+IP: [host="0:0"] 80,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 1
+RANDOM_DUMMY: [80,001,313] Random ummy session drops hello: "hello from host 1:0" (ip_src=10.10.0.10, ip_dest=10.10.0.9)
+RANDOM_DUMMY: [90,000,000] Random dummy session sends hello: "hello from host 0:0" to 10.10.0.10 
+IP: [host="0:0"] 90,000,000: send packet from "10.10.0.9" to "10.10.0.10" (39 real bytes).
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 90,000,000: push().
+SMAC: push() [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 90,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 90,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 90,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 0
+RANDOM_DUMMY: [90,000,000] Random dummy session sends hello: "hello from host 1:0" to 10.10.0.9 
+IP: [host="1:0"] 90,000,000: send packet from "10.10.0.10" to "10.10.0.9" (39 real bytes).
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 90,000,000: push().
+SMAC: push() [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 90,000,000: push(), enqueue packet.
+NIC: DroptailQueue::enqueue() pkt_len = 39
+NIC: DroptailQueue::enqueue() jitter = 0, transmission_time = 313, current_queue_delay = 313, latency = 0
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 90,000,000: sendPacket(delay=313).
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 90,000,000: send packet with delay 313.
+NW_IFACE: NetworkInterface::sendPacket, link_min_delay = 200, delay to write to outChannel = 113, pri = 1000000
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] 90,001,313: receive a packet.
+SPHY: [nic="1:0(0)", ip="10.10.0.10"] 90,001,313: receivePacket().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] 90,001,313: pop().
+SMAC: [nic="1:0(0)", ip="10.10.0.10"] src48_mac = 00:00:00:00:00:01, dst48_mac = 00:00:00:00:00:02
+IP: [host="1:0"] 90,001,313: pop() receive packet from "10.10.0.9" to "10.10.0.10".
+IP: [host="1:0"] 90,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 1
+RANDOM_DUMMY: [90,001,313] Random ummy session drops hello: "hello from host 0:0" (ip_src=10.10.0.9, ip_dest=10.10.0.10)
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] 90,001,313: receive a packet.
+SPHY: [nic="0:0(0)", ip="10.10.0.9"] 90,001,313: receivePacket().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] 90,001,313: pop().
+SMAC: [nic="0:0(0)", ip="10.10.0.9"] src48_mac = 00:00:00:00:00:02, dst48_mac = 00:00:00:00:00:01
+IP: [host="0:0"] 90,001,313: pop() receive packet from "10.10.0.10" to "10.10.0.9".
+IP: [host="0:0"] 90,001,313: receive local packet for protocol 253.
+RANDOM_DUMMY: A message is popped up to the random dummy session from the IP layer.
+RANDOM_DUMMY: RNG generate Bernoulli Number 1
+RANDOM_DUMMY: [90,001,313] Random ummy session drops hello: "hello from host 1:0" (ip_src=10.10.0.10, ip_dest=10.10.0.9)
+completed epoch window, advanced time to 100000000
+Finished
+-------------- runtime measurements ----------------
+Simulation run of 100 sim seconds, with 1 timelines
+	configured without smart pointer events
+	configured without smart pointer activations
+total run time is 0.001638 seconds
+simulation run time is 0.001142 seconds
+accumulated usr time is 0 seconds
+accumulated sys time is 0 seconds
+total evts 54, work evts 36, sync evts 0
+total exec evt rate 47285.5, work evt rate 31523.6
+----------------------------------------------------
+NET: delete net: nhi="".
+NET: delete net: nhi="0".
+HOST: [nhi="0:0"] delete host.
+NW_IFACE: [nhi="0:0(0)", ip="10.10.0.9"] delete network interface.
+SPHY: [nic="0:0(0)"] delete simple_phy session.
+SMAC: [nic="0:0(0)"] delete simple_mac session.
+IP: delete ip session.
+RANDOM_DUMMY: A random dummy protocol session is reclaimed.
+NET: delete net: nhi="1".
+HOST: [nhi="1:0"] delete host.
+NW_IFACE: [nhi="1:0(0)", ip="10.10.0.10"] delete network interface.
+SPHY: [nic="1:0(0)"] delete simple_phy session.
+SMAC: [nic="1:0(0)"] delete simple_mac session.
+IP: delete ip session.
+RANDOM_DUMMY: A random dummy protocol session is reclaimed.
+LINK: delete link.

@@ -1,0 +1,53 @@
+commit 6a5ae4b09506b1e06c7404ec4cf4fa6fcafb676d
+Author: littlepretty881203 <littlepretty881203@gmail.com>
+Date:   Fri Apr 18 10:48:13 2014 +0800
+
+    Read More
+
+commit 1317b624f4902fafac6eb57d39fa59a61aeac902
+Author: littlepretty881203 <littlepretty881203@gmail.com>
+Date:   Thu Apr 17 20:37:47 2014 +0800
+
+    Read to 3.2
+
+commit 0ea534f89713864812e4d6f8ad0538ed86f5f5ea
+Author: yjq <yjq@ubuntu.(none)>
+Date:   Thu Apr 17 00:52:01 2014 +0800
+
+    Begin Reading SSFNet Manual
+
+commit 3b491e70abdb8857e6cf71a7255ec63c6ee76d90
+Author: yjq <yjq@ubuntu.(none)>
+Date:   Wed Apr 16 23:42:11 2014 +0800
+
+    Read SSFUser Manual-Chapter 3
+
+commit daca919ce003bd3b829a8e5f52a10f9dc1579826
+Author: yjq <yjq@ubuntu.(none)>
+Date:   Tue Apr 15 21:12:20 2014 +0800
+
+    Add Old SSF User Manual
+
+commit 836a26618731fa77d1871389a8f7a4d955fccc81
+Author: yjq <yjq@ubuntu.(none)>
+Date:   Tue Apr 15 00:38:23 2014 +0800
+
+    Generate Documentation By Doxygen
+
+commit 9882d8e35134f0dbb19096825611bee894f99f10
+Author: yjq <yjq@ubuntu.(none)>
+Date:   Sun Apr 13 23:40:46 2014 +0800
+
+    Turn On ENABLE_S3FNET_DEBUG to Show Test Log
+
+commit d9b96bd2efe44f7f7d0ecbe7d3d974d341c4b798
+Author: littlepretty <littlepretty881203@gmail.com>
+Date:   Sun Apr 13 15:33:10 2014 +0800
+
+    Peek Dummy Session
+
+commit 932f91690672e46012e2bba23473f81aee283e0d
+Author: littlepretty881203 <littlepretty881203@gmail.com>
+Date:   Sat Apr 12 20:32:13 2014 +0800
+
+    Build and Example Test: All Sucess

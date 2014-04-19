@@ -5,7 +5,7 @@
  * authors : Dong (Kevin) Jin
  */
 
-#include "os/dummy/random_dummy_message.h"
+#include "os/random_dummy/random_dummy_message.h"
 
 namespace s3f {
 namespace s3fnet {
