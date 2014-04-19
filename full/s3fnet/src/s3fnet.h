@@ -92,6 +92,10 @@ class Net;
 #define SNMP_PROTOCOL_NAME   "snmp"
 /** DUMMY protocol layer session name. */
 #define DUMMY_PROTOCOL_NAME  "dummy"
+
+/** random DUMMY protocol layer session name. */
+#define RANDOM_DUMMY_PROTOCOL_NAME "random_dummy"
+
 /** Openvz_event protocol layer session name. */
 #define OPENVZ_EVENT_PROTOCOL_NAME  "openvz_event"
 /** OpenFlow switch protocol layer session name. */
@@ -171,6 +175,8 @@ enum S3FNetProtocolType {
 
   /** A dummy protocol. */
   S3FNET_PROTOCOL_TYPE_DUMMY = 254,
+
+  S3FNET_PROTOCOL_TYPE_RANDOM_DUMMY = 253,
 
   /** An OpenVZ event input protocol. */
   S3FNET_PROTOCOL_TYPE_OPENVZ_EVENT = 240,
@@ -362,6 +368,12 @@ enum ProtocolSessionCtrlTypes {
    */
   DUMMY_CTRL_COMMAND1		= 1512,
   DUMMY_CTRL_COMMAND2		= 1513,
+
+  /*
+   * random dummy protocol control commands
+   */
+  RANDOM_DUMMY_CTRL_COMMAND1   = 1510,
+  RANDOM_DUMMY_CTRL_COMMAND2   = 1511,
 
   /*
    * openflow switch protocol control commands //not in use yet

@@ -329,6 +329,21 @@ DUMMY_NONXFORM = $(filter %.cc,$(DUMMY_SRCFILES))
 DUMMY_XFORM = $(filter %.cxx,$(DUMMY_SRCFILES))
 DUMMY_OBJECTS = $(DUMMY_XFORM:.cxx=.xform.o) $(DUMMY_NONXFORM:.cc=.o)
 
+
+#
+# os/random_dummy: random dummy protocol
+# 
+
+RANDOM_DUMMY_HDRFILES = \
+	$(SRCDIR)/os/random_dummy/random_dummy_session.h \
+	$(SRCDIR)/os/random_dummy/random_dummy_message.h
+RANDOM_DUMMY_SRCFILES = \
+	$(SRCDIR)/os/random_dummy/random_dummy_session.cc \
+	$(SRCDIR)/os/random_dummy/random_dummy_message.cc
+RANDOM_DUMMY_NONXFORM = $(filter %.cc,$(RANDOM_DUMMY_SRCFILES))
+RANDOM_DUMMY_XFORM = $(filter %.cxx,$(RANDOM_DUMMY_SRCFILES))
+RANDOM_DUMMY_OBJECTS = $(RANDOM_DUMMY_XFORM:.cxx=.xform.o) $(RANDOM_DUMMY_NONXFORM:.cc=.o)
+
 #
 # os/openVZEmu: protocol for openvz emulation
 # 
@@ -489,6 +504,7 @@ endif
 S3FNET_DBGCFG = \
 	-DIP_DEBUG \
 	-DDUMMY_DEBUG \
+	-DRANDOM_DUMMY_DEBUG \
 	-DOPENVZ_EVENT_DEBUG \
 	-DOPENFLOW_CONTROLLER_DEBUG \
 	-DOPENFLOW_CONTROLLER_SESSION_DEBUG \

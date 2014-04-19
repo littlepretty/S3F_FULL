@@ -109,14 +109,14 @@ DIST_ARCHIVES = $(distdir).tar.gz
 GZIP_ENV = --best
 distuninstallcheck_listfiles = find . -type f -print
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/yjq/Documents/S3F-FULL/full/dml/missing --run aclocal-1.9
+ACLOCAL = ${SHELL} /home/yjq/Softwares/S3F-full/full/dml/missing --run aclocal-1.9
 AMDEP_FALSE = #
 AMDEP_TRUE = 
-AMTAR = ${SHELL} /home/yjq/Documents/S3F-FULL/full/dml/missing --run tar
-AUTOCONF = ${SHELL} /home/yjq/Documents/S3F-FULL/full/dml/missing --run autoconf
-AUTOHEADER = ${SHELL} /home/yjq/Documents/S3F-FULL/full/dml/missing --run autoheader
-AUTOMAKE = ${SHELL} /home/yjq/Documents/S3F-FULL/full/dml/missing --run automake-1.9
-AWK = mawk
+AMTAR = ${SHELL} /home/yjq/Softwares/S3F-full/full/dml/missing --run tar
+AUTOCONF = ${SHELL} /home/yjq/Softwares/S3F-full/full/dml/missing --run autoconf
+AUTOHEADER = ${SHELL} /home/yjq/Softwares/S3F-full/full/dml/missing --run autoheader
+AUTOMAKE = ${SHELL} /home/yjq/Softwares/S3F-full/full/dml/missing --run automake-1.9
+AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -g -O2
@@ -138,22 +138,22 @@ ENABLE_DML_LOCINFO_FALSE = #
 ENABLE_DML_LOCINFO_TRUE = 
 EXEEXT = 
 GREP = /bin/grep
-HAVE_BISON_FALSE = 
-HAVE_BISON_TRUE = #
-HAVE_FLEX_FALSE = 
-HAVE_FLEX_TRUE = #
+HAVE_BISON_FALSE = #
+HAVE_BISON_TRUE = 
+HAVE_FLEX_FALSE = #
+HAVE_FLEX_TRUE = 
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s
 LDFLAGS = 
-LEX = ${SHELL} /home/yjq/Documents/S3F-FULL/full/dml/missing --run flex
-LEXLIB = 
-LEX_OUTPUT_ROOT = 
+LEX = flex
+LEXLIB = -lfl
+LEX_OUTPUT_ROOT = lex.yy
 LIBOBJS = 
 LIBS = 
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /home/yjq/Documents/S3F-FULL/full/dml/missing --run makeinfo
+MAKEINFO = ${SHELL} /home/yjq/Softwares/S3F-full/full/dml/missing --run makeinfo
 OBJEXT = o
 PACKAGE = prime-dml
 PACKAGE_BUGREPORT = liux@cis.fiu.edu
@@ -168,7 +168,7 @@ SET_MAKE =
 SHELL = /bin/bash
 STRIP = 
 VERSION = 2.1.0
-YACC = yacc
+YACC = bison -y
 YFLAGS = 
 ac_ct_CC = gcc
 ac_ct_CXX = g++
@@ -192,7 +192,7 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = /home/yjq/Documents/S3F-FULL/full/dml/install-sh
+install_sh = /home/yjq/Softwares/S3F-full/full/dml/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -760,18 +760,18 @@ uninstall-info: uninstall-info-recursive
 
 # if flex or bison is not available, we use the lexical scanner or the
 # syntax analyzer from previous runs
-#dml-lex.cc:	dml-lex.ll
-#	$(LEX) $(LFLAGS) $(AM_LFLAGS) dml-lex.ll
-#	$(MOVE) lex.yy.c dml-lex.cc
-dml-lex.cc:	pre-dml-lex.cc
-	$(COPY) pre-dml-lex.cc dml-lex.cc
-#dml-syntax.h dml-syntax.cc:	dml-syntax.yy
-#	$(YACC) $(YFLAGS) $(AM_YFLAGS) dml-syntax.yy
-#	$(MOVE) y.tab.c dml-syntax.cc
-#	$(MOVE) y.tab.h dml-syntax.h
-dml-syntax.h dml-syntax.cc:	pre-dml-syntax.h pre-dml-syntax.cc
-	$(COPY) pre-dml-syntax.h dml-syntax.h
-	$(COPY) pre-dml-syntax.cc dml-syntax.cc
+dml-lex.cc:	dml-lex.ll
+	$(LEX) $(LFLAGS) $(AM_LFLAGS) dml-lex.ll
+	$(MOVE) lex.yy.c dml-lex.cc
+#dml-lex.cc:	pre-dml-lex.cc
+#	$(COPY) pre-dml-lex.cc dml-lex.cc
+dml-syntax.h dml-syntax.cc:	dml-syntax.yy
+	$(YACC) $(YFLAGS) $(AM_YFLAGS) dml-syntax.yy
+	$(MOVE) y.tab.c dml-syntax.cc
+	$(MOVE) y.tab.h dml-syntax.h
+#dml-syntax.h dml-syntax.cc:	pre-dml-syntax.h pre-dml-syntax.cc
+#	$(COPY) pre-dml-syntax.h dml-syntax.h
+#	$(COPY) pre-dml-syntax.cc dml-syntax.cc
 
 #
 # Copyright (c) 2007 Florida International University.
