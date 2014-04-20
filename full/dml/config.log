@@ -170,11 +170,11 @@ configure:4129: checking lex output file root
 configure:4143: result: lex.yy
 configure:4148: checking lex library
 configure:4162: gcc -o conftest -g -O2   conftest.c   >&5
-/tmp/ccohw5JP.o: In function `input':
+/tmp/ccwk8VuU.o: In function `input':
 /home/yjq/Softwares/S3F-full/full/dml/lex.yy.c:1170: undefined reference to `yywrap'
-/tmp/ccohw5JP.o: In function `yylex':
+/tmp/ccwk8VuU.o: In function `yylex':
 /home/yjq/Softwares/S3F-full/full/dml/lex.yy.c:869: undefined reference to `yywrap'
-/tmp/ccohw5JP.o: In function `main':
+/tmp/ccwk8VuU.o: In function `main':
 /home/yjq/Softwares/S3F-full/full/dml/conftest.l:18: undefined reference to `yywrap'
 collect2: error: ld returned 1 exit status
 configure:4162: $? = 1
@@ -2197,6 +2197,7 @@ config.status:877: creating test/dml2xml/Makefile
 config.status:877: creating test/dumpdml/Makefile
 config.status:877: creating test/listdml/Makefile
 config.status:877: creating dml-config.h
+config.status:1052: dml-config.h is unchanged
 config.status:1099: executing depfiles commands
 
 ## ---------------- ##

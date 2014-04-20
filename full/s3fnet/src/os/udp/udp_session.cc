@@ -220,6 +220,7 @@ int UDPSession::generate(int length, byte* msg)
   // scan thru the received data blocks
   while(!rcvbuf.empty())
   {
+    // rcvbuf not empty, msg should be appended
     DataMessage* dmsg = rcvbuf.front();
 
     // data received not enough to fill application receive buffer
@@ -228,7 +229,8 @@ int UDPSession::generate(int length, byte* msg)
       int to_recv = dmsg->realByteCount()-rcvbuf_offset;
       if(msg && dmsg->payload)
       {
-    	memcpy(&msg[rcvd], (byte*)dmsg->payload+rcvbuf_offset, to_recv);
+        memcpy(&msg[rcvd], (byte*)dmsg->payload+rcvbuf_offset, to_recv);
+        UDP_DUMP(printf("debug info---rcvbuf_offset: %d\n", rcvbuf_offset););
       }
       rcvbuf_len -= to_recv;
       rcvbuf_offset = 0;
@@ -245,7 +247,7 @@ int UDPSession::generate(int length, byte* msg)
       int to_recv = length;
       if(msg && dmsg->payload)
       {
-    	memcpy(&msg[rcvd], (byte*)dmsg->payload+rcvbuf_offset, to_recv);
+        memcpy(&msg[rcvd], (byte*)dmsg->payload+rcvbuf_offset, to_recv);
       }
       rcvbuf_len -= to_recv;
       rcvbuf_offset += to_recv;

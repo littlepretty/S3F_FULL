@@ -528,7 +528,7 @@ void UDPClientSession::timeout(int sock)
 void UDPClientSession::start_timer_callback(Activation ac)
 {
 	UDPClientSession* client = (UDPClientSession*)((ProtocolCallbackActivation*)ac)->session;
-    client->start_timer_callback_body(ac);
+  client->start_timer_callback_body(ac);
 }
 
 void UDPClientSession::start_timer_callback_body(Activation ac)

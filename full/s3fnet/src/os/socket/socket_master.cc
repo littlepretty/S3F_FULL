@@ -88,7 +88,7 @@ int SocketMaster::control(int ctrltyp, void* ctrlmsg, ProtocolSession* sess)
     {
       mysocket->state |= socksig->signal; // include it
       // if the newly added is what we're waiting for
-      if(socksig->signal & mysocket->mask)
+      if(socksig->signal & mysocket->mask) // sig sent is not masked
       {
     	  // clear up the data available flag for next receive
         if(mysocket->state & SocketSignal::DATA_AVAILABLE)

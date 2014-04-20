@@ -231,7 +231,7 @@ int RandomDummySession::pop(Activation msg, ProtocolSession* lo_sess, void* exti
 
   Random::RNG* rng = new Random::RNG();
   long will_drop = rng->Bernoulli_idf(0.5, rng->Random());
-  RANDOM_DUMMY_DUMP(printf("RNG generate Bernoulli Number %d\n", will_drop);)
+  RANDOM_DUMMY_DUMP(printf("RNG generate Bernoulli Number %d\n", will_drop););
 
   if (will_drop == 0)
   {
