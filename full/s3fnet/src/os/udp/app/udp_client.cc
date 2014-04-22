@@ -341,6 +341,25 @@ void UDPClientSession::main_proc(int sample_off_time, ltime_t lead_time)
   HandleCode h = owner_host->waitFor( start_timer_callback_proc, ac, t, owner_host->tie_breaking_seed );
 }
 
+void UDPClientSession::start_timer_callback(Activation ac)
+{
+  UDPClientSession* client = (UDPClientSession*)((ProtocolCallbackActivation*)ac)->session;
+  client->start_timer_callback_body(ac);
+}
+
+void UDPClientSession::start_timer_callback_body(Activation ac)
+{
+  if(start_timer_called_once == true)
+  {
+    start_on();
+  }
+  else
+  {
+    start_timer_called_once = true;
+    start_once();
+  }
+}
+
 void UDPClientSession::start_once()
 {
   // if fixed_server is true, the client connects with the same server
@@ -525,24 +544,7 @@ void UDPClientSession::timeout(int sock)
   sm->abort(sock);
 }
 
-void UDPClientSession::start_timer_callback(Activation ac)
-{
-	UDPClientSession* client = (UDPClientSession*)((ProtocolCallbackActivation*)ac)->session;
-  client->start_timer_callback_body(ac);
-}
 
-void UDPClientSession::start_timer_callback_body(Activation ac)
-{
-	if(start_timer_called_once == true)
-	{
-		start_on();
-	}
-	else
-	{
-		start_timer_called_once = true;
-		start_once();
-	}
-}
 
 }; // namespace s3fnet
 }; // namespace s3f
